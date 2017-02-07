@@ -1,0 +1,488 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Theme Lambda Documentation</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800,700,400italic,600italic,700italic,800italic,300italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+	<div class="navbar">
+		<div class="navbar-inner">
+			<div class="container-fluid">
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".top-nav.nav-collapse,.sidebar-nav.nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</a>
+                <a class="brand" href="index.html">Theme Lambda Documentation</a>				
+			</div>
+		</div>
+	</div>
+	
+	<div class="container-fluid-full">
+		<div class="row-fluid">
+
+			<div id="sidebar-left" class="span2">
+				<div class="nav-collapse sidebar-nav">
+					<ul class="nav nav-tabs nav-stacked main-menu">
+						<li><a href="index.html">Introduction</span></a></li>	
+						<li><a href="installing.html">Installing the Theme</span></a></li>
+                        <li><a class="dropmenu" href="#">First Steps<i class="fa fa-caret-down pull-right"></i></a>
+							<ul>
+								<li><a class="submenu" href="profileblock.html">Theme UI</a></li>
+								<li><a class="submenu" href="moodle_settings.html">Settings in Moodle</a></li>
+							</ul>	
+						</li>
+                        <li><a class="dropmenu" href="#">Theme Options <i class="fa fa-caret-down pull-right"></i></a>
+							<ul>
+								<li><a class="submenu" href="options_general.html">General</a></li>
+								<li><a class="submenu" href="options_page_bg.html">Page Background</a></li>
+                                <li><a class="submenu" href="options_colors.html">Colors</a></li>
+                                <li><a class="submenu" href="options_social.html">Social Media</a></li>
+                                <li><a class="submenu" href="options_fonts.html">Fonts</a></li>
+                                <li><a class="submenu" href="options_frontpage.html">Frontpage Settings</a></li>
+							</ul>	
+						</li>
+                        <li><a class="dropmenu" href="#">Styling your Site <i class="fa fa-caret-down pull-right"></i></a>
+							<ul>
+								<li><a class="submenu" href="blocks.html">Managing Blocks</a></li>
+                                <li><a class="submenu" href="typography.html">General Typography</a></li>
+                                <li><a class="submenu" href="tables.html">Tables</a></li>
+                                <li><a class="submenu" href="font_awesome.html">Using Font Awesome</a></li>
+                                <li><a class="submenu" href="bs_grid.html">Bootstrap Grid System</a></li>
+								<li><a class="submenu" href="bs_components.html">Bootstrap Components</a></li>
+                                <li><a class="submenu" href="bs_plugins.html">Bootstrap Plugins</a></li>
+                                <li><a class="submenu" href="content_boxes.html">Content Boxes</a></li>
+                                <li><a class="submenu" href="elements.html">Theme Elements</a></li>
+							</ul>	
+						</li>
+                        <li><a class="dropmenu" href="#">Adding content <i class="fa fa-caret-down pull-right"></i></a>
+							<ul>
+								<li><a class="submenu" href="adding_content.html">Text editor</a></li>
+                                <li><a class="submenu" href="adding_content_iconbox.html">Example 1 - Iconboxes</a></li>
+                                <li><a class="submenu" href="adding_content_imagebox.html">Example 2 - Imageboxes</a></li>
+                                <li><a class="submenu" href="adding_content_parallax.html">Example 3 - Parallax Section</a></li>
+                                <li><a class="submenu" href="adding_content_courses.html">Course Design</a></li>
+								<li><a class="submenu" href="adding_content_video.html">Responsive Videos</a></li>
+							</ul>	
+						</li>
+                        <li><a href="updates.html">Updates</span></a></li>
+                        <li><a href="credits.html">Credits</span></a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div id="content" class="span10">
+				<div class="row-fluid">
+                
+					<h1 class="sectionheading"> Shortcodes: Bootstrap Plugins</h1>
+                	<div class="divider"></div>
+                    
+                    <h4>Tabs</h4>
+                    <p>Add quick, dynamic tab functionality to transition through panes of local content, even via dropdown menus.</p>
+<div class="bs-example bs-example-tabs">
+<ul id="myTab" class="nav nav-tabs" role="tablist">
+<li class="active">
+<a data-toggle="tab" role="tab" href="#home">Home</a>
+</li>
+<li class="">
+<a data-toggle="tab" role="tab" href="#profile">Profile</a>
+</li>
+<li class="">
+<a data-toggle="tab" role="tab" href="#more">More</a>
+</li>
+</ul>
+<div id="myTabContent" class="tab-content">
+<div id="home" class="tab-pane fade active in">
+<p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+</div>
+<div id="profile" class="tab-pane fade">
+<p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p>
+</div>
+<div id="more" class="tab-pane fade">
+<p>Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack portland seitan DIY, art party locavore wolf cliche high life echo park Austin. Cred vinyl keffiyeh DIY salvia PBR, banh mi before they sold out farm-to-table VHS viral locavore cosby sweater. Lomo wolf viral, mustache readymade thundercats keffiyeh craft beer marfa ethical. Wolf salvia freegan, sartorial keffiyeh echo park vegan.</p>
+</div>
+</div>
+</div>
+<pre><code class="html"><span class="c">&lt;!-- Nav tabs --&gt;</span>
+<span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"nav nav-tabs"</span> <span class="na">role=</span><span class="s">"tablist"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"active"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#home"</span> <span class="na">role=</span><span class="s">"tab"</span> <span class="na">data-toggle=</span><span class="s">"tab"</span><span class="nt">&gt;</span>Home<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+  <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#profile"</span> <span class="na">role=</span><span class="s">"tab"</span> <span class="na">data-toggle=</span><span class="s">"tab"</span><span class="nt">&gt;</span>Profile<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+  <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#more"</span> <span class="na">role=</span><span class="s">"tab"</span> <span class="na">data-toggle=</span><span class="s">"tab"</span><span class="nt">&gt;</span>More<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span>
+
+<span class="c">&lt;!-- Tab panes --&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"tab-content"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"tab-pane active"</span> <span class="na">id=</span><span class="s">"home"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"tab-pane"</span> <span class="na">id=</span><span class="s">"profile"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"tab-pane"</span> <span class="na">id=</span><span class="s">"more"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/div&gt;</span><span class="nt"></span>
+<span class="nt">&lt;/div&gt;</span></code></pre>
+<div class="bs-example-full">
+<p>
+<button class="btn btn-info" type="button" data-toggle="collapse" data-target="#html-bs-tabs"><i class="fa fa-code"></i>
+ Get full HTML code</button>
+<div id="html-bs-tabs" class="collapse" style="height: 0px;">
+<pre>
+<code class="html">
+&lt;ul id=&quot;myTab&quot; class=&quot;nav nav-tabs&quot; role=&quot;tablist&quot;&gt;<br />&lt;li class=&quot;active&quot;&gt;<br />&lt;a data-toggle=&quot;tab&quot; role=&quot;tab&quot; href=&quot;#home&quot;&gt;Home&lt;/a&gt;<br />&lt;/li&gt;<br />&lt;li class=&quot;&quot;&gt;<br />&lt;a data-toggle=&quot;tab&quot; role=&quot;tab&quot; href=&quot;#profile&quot;&gt;Profile&lt;/a&gt;<br />&lt;/li&gt;<br />&lt;li class=&quot;&quot;&gt;<br />&lt;a data-toggle=&quot;tab&quot; role=&quot;tab&quot; href=&quot;#more&quot;&gt;More&lt;/a&gt;<br />&lt;/li&gt;<br />&lt;/ul&gt;<br />&lt;div id=&quot;myTabContent&quot; class=&quot;tab-content&quot;&gt;<br />&lt;div id=&quot;home&quot; class=&quot;tab-pane fade active in&quot;&gt;<br />&lt;p&gt;Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.&lt;/p&gt;<br />&lt;/div&gt;<br />&lt;div id=&quot;profile&quot; class=&quot;tab-pane fade&quot;&gt;<br />&lt;p&gt;Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.&lt;/p&gt;<br />&lt;/div&gt;<br />&lt;div id=&quot;more&quot; class=&quot;tab-pane fade&quot;&gt;<br />&lt;p&gt;Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack portland seitan DIY, art party locavore wolf cliche high life echo park Austin. Cred vinyl keffiyeh DIY salvia PBR, banh mi before they sold out farm-to-table VHS viral locavore cosby sweater. Lomo wolf viral, mustache readymade thundercats keffiyeh craft beer marfa ethical. Wolf salvia freegan, sartorial keffiyeh echo park vegan.&lt;/p&gt;<br />&lt;/div&gt;<br />&lt;/div&gt;
+</code>
+</pre>
+</div>
+</p></div>
+
+
+<hr />
+
+<h4>Accordion</h4>
+
+<p>Using the collapse plugin, we built a simple accordion by extending the panel component.</p>
+<div class="bs-example">
+<div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+          Collapsible Group Item #1
+        </a>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in">
+      <div class="panel-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" class="collapsed">
+          Collapsible Group Item #2
+        </a>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse">
+      <div class="panel-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" class="collapsed">
+          Collapsible Group Item #3
+        </a>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse">
+      <div class="panel-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<pre><code class="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel-group"</span> <span class="na">id=</span><span class="s">"accordion"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel panel-default"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel-heading"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">data-toggle=</span><span class="s">"collapse"</span> <span class="na">data-parent=</span><span class="s">"#accordion"</span> <span class="na">href=</span><span class="s">"#collapseOne"</span><span class="nt">&gt;</span>
+        Collapsible Group Item #1
+      <span class="nt">&lt;/a&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"collapseOne"</span> <span class="na">class=</span><span class="s">"panel-collapse collapse in"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel-body"</span><span class="nt">&gt;</span>
+        Anim pariatur cliche reprehenderit, ...
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel panel-default"</span><span class="nt">&gt;</span></code><code class="html"><span class="nt"></span>
+        ...<span class="nt"></span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel panel-default"</span><span class="nt">&gt;</span></code><code class="html">
+        ...
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre>
+<div class="bs-example-full">
+<p>
+<button class="btn btn-info" type="button" data-toggle="collapse" data-target="#html-bs-accordion"><i class="fa fa-code"></i>
+ Get full HTML code</button>
+<div id="html-bs-accordion" class="collapse" style="height: 0px;">
+<pre>&lt;div class=&quot;panel-group&quot; id=&quot;accordion&quot;&gt;
+&lt;div class=&quot;panel panel-default&quot;&gt;
+&lt;div class=&quot;panel-heading&quot;&gt;
+&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#collapseOne&quot;&gt;
+Collapsible Group Item #1
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;div id=&quot;collapseOne&quot; class=&quot;panel-collapse collapse in&quot;&gt;
+&lt;div class=&quot;panel-body&quot;&gt;
+Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;panel panel-default&quot;&gt;
+&lt;div class=&quot;panel-heading&quot;&gt;
+&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#collapseTwo&quot; class=&quot;collapsed&quot;&gt;
+Collapsible Group Item #2
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;div id=&quot;collapseTwo&quot; class=&quot;panel-collapse collapse&quot;&gt;
+&lt;div class=&quot;panel-body&quot;&gt;
+Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;panel panel-default&quot;&gt;
+&lt;div class=&quot;panel-heading&quot;&gt;
+&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#collapseThree&quot;class=&quot;collapsed&quot;&gt;
+Collapsible Group Item #3
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;div id=&quot;collapseThree&quot; class=&quot;panel-collapse collapse&quot;&gt;
+&lt;div class=&quot;panel-body&quot;&gt;
+Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</pre>
+</div>
+</p></div>
+
+<hr />
+<h4>Carousel</h4>
+<p>The slideshow below shows a generic plugin and component for cycling through elements like a carousel.</p>
+<div class="bs-example">
+<div id="myCarousel" class="carousel slide" style="max-width:800px;&quot;">
+
+    <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    
+    <div class="carousel-inner">
+
+    <div class="active item"><img src="http://splitshire.com/wp-content/uploads/2014/09/SplitShire_road_illuminated_by_moon-800x500.jpg" alt="first">
+  <div class="carousel-caption">
+    <h3>First slide label</h3>
+    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+</div>
+</div>
+
+    <div class="item"><img src="http://splitshire.com/wp-content/uploads/2014/08/SplitShire_IMG_5311-800x500.jpg" alt="second">
+  <div class="carousel-caption">
+    <h3>Second slide label</h3>
+    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+</div>
+</div>
+
+    <div class="item"><img src="http://splitshire.com/wp-content/uploads/2014/08/SplitShire_IMG_5326-800x500.jpg" alt="third">
+  <div class="carousel-caption">
+    <h3>Third slide label</h3>
+    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+</div>
+</div>
+
+</div>
+    
+    <a class="carousel-control left" href="#myCarousel" data-slide="prev">‹</a>
+    <a class="carousel-control right" href="#myCarousel" data-slide="next">›</a>
+</div>
+</div>
+
+<pre><code class="html"><span class="nt">&lt;div</span> id=<span class="s">"myCarousel"</span> class=<span class="s">"carousel slide"</span><span class="nt">&gt;
+&lt;ol</span> class=<span class="s">"carousel-indicators"</span><span class="nt">&gt;
+  &lt;li</span> data-target=<span class="s">"#myCarousel"</span> data-slide-to=<span class="s">"0"</span> class=<span class="s">"active"</span><span class="nt">&gt;&lt;/li&gt;
+  &lt;li</span> data-target=<span class="s">"#myCarousel"</span> data-slide-to=<span class="s">"1"</span><span class="nt">&gt;&lt;/li&gt;
+  &lt;li</span> data-target=<span class="s">"#myCarousel"</span> data-slide-to=<span class="s">"2"</span><span class="nt">&gt;&lt;/li&gt;
+&lt;/ol&gt;</span>
+&lt;!-- Carousel items --&gt;
+<span class="nt">&lt;div</span> class=<span class="s">"carousel-inner"</span><span class="nt">&gt;
+  &lt;div</span> class=<span class="s">"active item"</span><span class="nt">&gt;</span>
+  <span class="nt">  &lt;img</span> <span class="na">src=</span><span class="s">"..."</span> <span class="na">alt=</span><span class="s">"..."</span><span class="nt">&gt;</span>
+  <span class="nt">  &lt;div</span> <span class="na">class=</span><span class="s">"carousel-caption"</span><span class="nt">&gt;</span>
+    <span class="nt">  &lt;h3&gt;</span>...<span class="nt">&lt;/h3&gt;</span>
+    <span class="nt">  &lt;p&gt;</span>...<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;/div&gt;</span><br>  <span class="nt">&lt;/div&gt;</span><span class="nt">
+  &lt;div</span> class=<span class="s">"item"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/div&gt;
+  &lt;div</span> class=<span class="s">"item"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/div&gt;
+&lt;/div&gt;</span>
+&lt;!-- Carousel nav --&gt;
+<span class="nt">&lt;a</span> class=<span class="s">"carousel-control left"</span> href=<span class="s">"#myCarousel"</span> data-slide=<span class="s">"prev"</span><span class="nt">&gt;</span>&amp;lsaquo;<span class="nt">&lt;/a&gt;
+&lt;a</span> class=<span class="s">"carousel-control right"</span> href=<span class="small">"#myCarousel"</span> data-slide=<span class="s">"next"</span><span class="nt">&gt;</span>&amp;rsaquo;<span class="nt">&lt;/a&gt;
+&lt;/div&gt;</span></code></pre>
+<div class="bs-example-full">
+<p>
+<button class="btn btn-info" type="button" data-toggle="collapse" data-target="#html-bs-slide"><i class="fa fa-code"></i>
+ Get full HTML code</button>
+<div id="html-bs-slide" class="collapse" style="height: 0px;">
+<pre>&lt;div id=&quot;myCarousel&quot; class=&quot;carousel slide&quot; style=&quot;max-width:800px;&amp;quot;&quot;&gt;
+&lt;ol class=&quot;carousel-indicators&quot;&gt;
+&lt;li data-target=&quot;#myCarousel&quot; data-slide-to=&quot;0&quot; class=&quot;active&quot;&gt;&lt;/li&gt;
+&lt;li data-target=&quot;#myCarousel&quot; data-slide-to=&quot;1&quot;&gt;&lt;/li&gt;
+&lt;li data-target=&quot;#myCarousel&quot; data-slide-to=&quot;2&quot;&gt;&lt;/li&gt;
+&lt;/ol&gt; 
+&lt;div class=&quot;carousel-inner&quot;&gt;
+&lt;div class=&quot;active item&quot;&gt;&lt;img src=&quot;http://splitshire.com/wp-content/uploads/2014/09/SplitShire_road_illuminated_by_moon-800x500.jpg&quot; alt=&quot;first&quot;&gt;
+&lt;div class=&quot;carousel-caption&quot;&gt;
+&lt;h3&gt;First slide label&lt;/h3&gt;
+&lt;p&gt;Praesent commodo cursus magna, vel scelerisque nisl consectetur.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;item&quot;&gt;&lt;img src=&quot;http://splitshire.com/wp-content/uploads/2014/08/SplitShire_IMG_5311-800x500.jpg&quot; alt=&quot;second&quot;&gt;
+&lt;div class=&quot;carousel-caption&quot;&gt;
+&lt;h3&gt;Second slide label&lt;/h3&gt;
+&lt;p&gt;Praesent commodo cursus magna, vel scelerisque nisl consectetur.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;item&quot;&gt;&lt;img src=&quot;http://splitshire.com/wp-content/uploads/2014/08/SplitShire_IMG_5326-800x500.jpg&quot; alt=&quot;third&quot;&gt;
+&lt;div class=&quot;carousel-caption&quot;&gt;
+&lt;h3&gt;Third slide label&lt;/h3&gt;
+&lt;p&gt;Praesent commodo cursus magna, vel scelerisque nisl consectetur.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt; 
+&lt;a class=&quot;carousel-control left&quot; href=&quot;#myCarousel&quot; data-slide=&quot;prev&quot;&gt;‹&lt;/a&gt;
+&lt;a class=&quot;carousel-control right&quot; href=&quot;#myCarousel&quot; data-slide=&quot;next&quot;&gt;›&lt;/a&gt;
+&lt;/div&gt;</pre>
+</div>
+</p></div>
+
+<hr />
+<h4>Carousel with set of thumbnails...</h4>
+<p>The carousel below shows a generic plugin and component for cycling through multiple elements.</p>
+
+<div class="bs-example bs-example-type">
+
+<div style="max-width:710px;" class="carousel slide" id="myCarousel2">
+<div class="carousel-inner">
+  <div class="item active">
+        <ul class="thumbnails">
+            <li>
+                <div class="thumbnail">
+                    <img alt="" src="http://splitshire.com/wp-content/uploads/2014/09/SplitShire_IMG_7416-300x200.jpg">
+                </div>
+            </li>
+            <li>
+                <div class="thumbnail">
+                    <img alt="" src="http://splitshire.com/wp-content/uploads/2014/09/SplitShire_IMG_7374-300x200.jpg">
+                </div>
+            </li>
+        </ul>
+  </div>
+  <div class="item">
+        <ul class="thumbnails">
+            <li>
+                <div class="thumbnail">
+                    <img alt="" src="http://splitshire.com/wp-content/uploads/2014/09/SplitShire_IMG_7314-300x200.jpg">
+                </div>
+            </li>
+            <li>
+                <div class="thumbnail">
+                    <img alt="" src="http://splitshire.com/wp-content/uploads/2014/09/SplitShire_IMG_7044-300x200.jpg">
+                </div>
+            </li>
+        </ul>
+  </div>
+  <div class="item">
+        <ul class="thumbnails">
+            <li>
+                <div class="thumbnail">
+                    <img alt="" src="http://splitshire.com/wp-content/uploads/2014/09/IMG_8097-300x200.jpg">
+                </div>
+            </li>
+            <li>
+                <div class="thumbnail">
+                    <img alt="" src="http://splitshire.com/wp-content/uploads/2014/09/SplitShire_Torino_Piazza_Vittorio-300x200.jpg">
+                </div>
+            </li>
+        </ul>
+  </div>
+</div>
+<a class="left carousel-control" href="#myCarousel2" data-slide="prev">‹</a>
+<a class="right carousel-control" href="#myCarousel2" data-slide="next">›</a>
+</div>
+
+
+
+<pre><code class="html"><span class="nt">&lt;div</span> id=<span class="s">"myCarousel"</span> class=<span class="s">"carousel slide"</span><span class="nt">&gt;<br>  &lt;div</span> class=<span class="s">"carousel-inner"</span><span class="nt">&gt;<br>  &lt;div</span> class=<span class="s">"item active"</span><span class="nt">&gt;<br>    &lt;ul</span> class=<span class="s">"thumbnails"</span><span class="nt">&gt;<br>      &lt;li&gt;<br>        &lt;div</span> class=<span class="s">"thumbnail"</span><span class="nt">&gt;<br>        &lt;img</span> src=<span class="s">"..."</span> alt=<span class="s">""</span><span class="nt">&gt;<br>        &lt;/div&gt;<br>      &lt;/li&gt;<br>      &lt;li&gt;<br>        &lt;div</span> class=<span class="s">"thumbnail"</span><span class="nt">&gt;<br>        &lt;img</span> src=<span class="s">"..."</span> alt=<span class="s">""</span><span class="nt">&gt;<br>        &lt;/div&gt;<br>      &lt;/li&gt;<br>    &lt;/ul&gt;<br>  &lt;/div&gt;<br>  &lt;div</span> class=<span class="s">"item"</span><span class="nt">&gt;<br>    &lt;ul</span> class=<span class="s">"thumbnails"</span><span class="nt">&gt;<br>      &lt;li&gt;</span>...<span class="nt">&lt;/li&gt;<br>      &lt;li&gt;</span>...<span class="nt">&lt;/li&gt;<br>    &lt;/ul&gt;<br>  &lt;/div&gt;<br>  &lt;div</span> class=<span class="s">"item"</span><span class="nt">&gt;</span><br>    ...<br>  <span class="nt">&lt;/div&gt;</span></code><br><code class="html"><span class="nt"><code class="html"><span class="nt">  &lt;/div&gt;</span></code>
+&lt;a</span> data-slide=<span class="s">"prev"</span> href=<span class="s">"#myCarousel"</span> class=<span class="s">"left carousel-control"</span><span class="nt">&gt;</span>‹<span class="nt">&lt;/a&gt;<br>&lt;a</span> data-slide=<span class="s">"next"</span> href=<span class="s">"#myCarousel"</span> class=<span class="s">"right carousel-control"</span><span class="nt">&gt;</span>›<span class="nt">&lt;/a&gt;
+&lt;/div&gt;</span></code></pre>
+<div class="bs-example-full">
+<p>
+<button class="btn btn-info" type="button" data-toggle="collapse" data-target="#html-bs-carousel"><i class="fa fa-code"></i>
+ Get full HTML code</button>
+<div id="html-bs-carousel" class="collapse" style="height: 0px;">
+<pre>&lt;div id=&quot;myCarousel&quot; class=&quot;carousel slide&quot; style=&quot;max-width:710px;&quot;&gt;
+&lt;div class=&quot;carousel-inner&quot;&gt;
+&lt;div class=&quot;item active&quot;&gt;
+&lt;ul class=&quot;thumbnails&quot;&gt;
+&lt;li&gt;
+&lt;div class=&quot;thumbnail&quot;&gt;
+&lt;img src=&quot;http://splitshire.com/wp-content/uploads/2014/09/SplitShire_IMG_7416-300x200.jpg&quot; alt=&quot;&quot;&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;div class=&quot;thumbnail&quot;&gt;
+&lt;img src=&quot;http://splitshire.com/wp-content/uploads/2014/09/SplitShire_IMG_7374-300x200.jpg&quot; alt=&quot;&quot;&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;item&quot;&gt;
+&lt;ul class=&quot;thumbnails&quot;&gt;
+&lt;li&gt;
+&lt;div class=&quot;thumbnail&quot;&gt;
+&lt;img src=&quot;http://splitshire.com/wp-content/uploads/2014/09/SplitShire_IMG_7314-300x200.jpg&quot; alt=&quot;&quot;&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;div class=&quot;thumbnail&quot;&gt;
+&lt;img src=&quot;http://splitshire.com/wp-content/uploads/2014/09/SplitShire_IMG_7044-300x200.jpg&quot; alt=&quot;&quot;&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;item&quot;&gt;
+&lt;ul class=&quot;thumbnails&quot;&gt;
+&lt;li&gt;
+&lt;div class=&quot;thumbnail&quot;&gt;
+&lt;img src=&quot;http://splitshire.com/wp-content/uploads/2014/09/IMG_8097-300x200.jpg&quot; alt=&quot;&quot;&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;div class=&quot;thumbnail&quot;&gt;
+&lt;img src=&quot;http://splitshire.com/wp-content/uploads/2014/09/SplitShire_Torino_Piazza_Vittorio-300x200.jpg&quot; alt=&quot;&quot;&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;a data-slide=&quot;prev&quot; href=&quot;#myCarousel&quot; class=&quot;left carousel-control&quot;&gt;‹&lt;/a&gt;
+&lt;a data-slide=&quot;next&quot; href=&quot;#myCarousel&quot; class=&quot;right carousel-control&quot;&gt;›&lt;/a&gt;
+&lt;/div&gt;</pre>
+</div>
+</p></div>
+
+</div></div>
+
+                    
+					<div class="clearfix"></div>								
+				</div>	
+			</div>
+            
+		</div>
+	</div>
+	
+	<div class="clearfix"></div>
+
+	<script src="js/jquery-1.9.1.min.js"></script>	
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/custom.js"></script>
+	
+</body>
+</html>

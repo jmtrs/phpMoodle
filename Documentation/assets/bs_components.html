@@ -1,0 +1,430 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Theme Lambda Documentation</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800,700,400italic,600italic,700italic,800italic,300italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+	<div class="navbar">
+		<div class="navbar-inner">
+			<div class="container-fluid">
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".top-nav.nav-collapse,.sidebar-nav.nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</a>
+                <a class="brand" href="index.html">Theme Lambda Documentation</a>				
+			</div>
+		</div>
+	</div>
+	
+	<div class="container-fluid-full">
+		<div class="row-fluid">
+
+			<div id="sidebar-left" class="span2">
+				<div class="nav-collapse sidebar-nav">
+					<ul class="nav nav-tabs nav-stacked main-menu">
+						<li><a href="index.html">Introduction</span></a></li>	
+						<li><a href="installing.html">Installing the Theme</span></a></li>
+                        <li><a class="dropmenu" href="#">First Steps<i class="fa fa-caret-down pull-right"></i></a>
+							<ul>
+								<li><a class="submenu" href="profileblock.html">Theme UI</a></li>
+								<li><a class="submenu" href="moodle_settings.html">Settings in Moodle</a></li>
+							</ul>	
+						</li>
+                        <li><a class="dropmenu" href="#">Theme Options <i class="fa fa-caret-down pull-right"></i></a>
+							<ul>
+								<li><a class="submenu" href="options_general.html">General</a></li>
+								<li><a class="submenu" href="options_page_bg.html">Page Background</a></li>
+                                <li><a class="submenu" href="options_colors.html">Colors</a></li>
+                                <li><a class="submenu" href="options_social.html">Social Media</a></li>
+                                <li><a class="submenu" href="options_fonts.html">Fonts</a></li>
+                                <li><a class="submenu" href="options_frontpage.html">Frontpage Settings</a></li>
+							</ul>	
+						</li>
+                        <li><a class="dropmenu" href="#">Styling your Site <i class="fa fa-caret-down pull-right"></i></a>
+							<ul>
+								<li><a class="submenu" href="blocks.html">Managing Blocks</a></li>
+                                <li><a class="submenu" href="typography.html">General Typography</a></li>
+                                <li><a class="submenu" href="tables.html">Tables</a></li>
+                                <li><a class="submenu" href="font_awesome.html">Using Font Awesome</a></li>
+                                <li><a class="submenu" href="bs_grid.html">Bootstrap Grid System</a></li>
+								<li><a class="submenu" href="bs_components.html">Bootstrap Components</a></li>
+                                <li><a class="submenu" href="bs_plugins.html">Bootstrap Plugins</a></li>
+                                <li><a class="submenu" href="content_boxes.html">Content Boxes</a></li>
+                                <li><a class="submenu" href="elements.html">Theme Elements</a></li>
+							</ul>	
+						</li>
+                        <li><a class="dropmenu" href="#">Adding content <i class="fa fa-caret-down pull-right"></i></a>
+							<ul>
+								<li><a class="submenu" href="adding_content.html">Text editor</a></li>
+                                <li><a class="submenu" href="adding_content_iconbox.html">Example 1 - Iconboxes</a></li>
+                                <li><a class="submenu" href="adding_content_imagebox.html">Example 2 - Imageboxes</a></li>
+                                <li><a class="submenu" href="adding_content_parallax.html">Example 3 - Parallax Section</a></li>
+                                <li><a class="submenu" href="adding_content_courses.html">Course Design</a></li>
+								<li><a class="submenu" href="adding_content_video.html">Responsive Videos</a></li>
+							</ul>	
+						</li>
+                        <li><a href="updates.html">Updates</span></a></li>
+                        <li><a href="credits.html">Credits</span></a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div id="content" class="span10">
+				<div class="row-fluid">
+                
+					<h1 class="sectionheading"> Shortcodes: Bootstrap Components</h1>
+                	<div class="divider"></div>
+                    
+                    <h4>Buttons</h4>
+                    <p>Use any of the available button classes to quickly create a styled button.</p>
+<div class="bs-example">
+<button class="btn btn-default" type="button">Default</button>
+<button class="btn btn-primary" type="button">Primary</button>
+<button class="btn btn-success" type="button">Success</button>
+<button class="btn btn-info" type="button">Info</button>
+<button class="btn btn-warning" type="button">Warning</button>
+<button class="btn btn-danger" type="button">Danger</button>
+</div>
+<pre><code class="html"><span class="c">&lt;!-- Standard button --&gt;</span>
+<span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-default"</span><span class="nt">&gt;</span>Default<span class="nt">&lt;/button&gt;</span>
+
+<span class="c">&lt;!-- Provides extra visual weight and identifies the primary action in a set of buttons --&gt;</span>
+<span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-primary"</span><span class="nt">&gt;</span>Primary<span class="nt">&lt;/button&gt;</span>
+
+<span class="c">&lt;!-- Indicates a successful or positive action --&gt;</span>
+<span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-success"</span><span class="nt">&gt;</span>Success<span class="nt">&lt;/button&gt;</span>
+
+<span class="c">&lt;!-- Contextual button for informational alert messages --&gt;</span>
+<span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-info"</span><span class="nt">&gt;</span>Info<span class="nt">&lt;/button&gt;</span>
+
+<span class="c">&lt;!-- Indicates caution should be taken with this action --&gt;</span>
+<span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-warning"</span><span class="nt">&gt;</span>Warning<span class="nt">&lt;/button&gt;</span>
+
+<span class="c">&lt;!-- Indicates a dangerous or potentially negative action --&gt;</span>
+<span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-danger"</span><span class="nt">&gt;</span>Danger<span class="nt">&lt;/button&gt;</span>
+
+<span class="c">&lt;!-- Deemphasize a button by making it look like a link while maintaining button behavior --&gt;</span>
+<span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-link"</span><span class="nt">&gt;</span>Link<span class="nt">&lt;/button&gt;</span></code></pre>
+
+<p>You can use the <code>&lt;a&gt;</code> tag with the  available button classes and also style the buttons using <a target="_blank" href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a>.</p>
+<div class="bs-example">
+<a class="btn btn-danger" href="#" style="margin-right:10px;"><i class="fa fa-trash-o fa-lg"></i> Delete</a>
+<a class="btn btn-default" href="#" style="margin-right:10px;"><i class="fa fa-plus-square"></i> Read more...</a>
+<a class="btn btn-info" href="#"><i class="fa fa-download fa-3x pull-left"></i> Click here to<br> download!</a>
+</div>
+<pre><code class="html"><span class="nt">&lt;a </span><span class="na">class=</span><span class="s">"btn btn-danger" href="#"</span><span class="nt">&gt;&lt;i</span> class=<span class="s">"fa fa-trash-o fa-lg"</span><span class="nt">&gt;&lt;/i&gt;</span> Delete<span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;a </span><span class="na">class=</span><span class="s">"btn btn-default" href="<span class="s">#</span>"</span><span class="nt">&gt;&lt;i</span> class=<span class="s">"fa fa-plus-square"</span><span class="nt">&gt;&lt;/i&gt;</span> Read more...<span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;a </span><span class="na">class=</span><span class="s">"btn btn-info" href="<span class="s">#</span>"</span><span class="nt">&gt;&lt;i</span> class=<span class="s">"fa fa-download fa-3x pull-left"</span><span class="nt">&gt;&lt;/i&gt;</span> Click here to download!<span class="nt">&lt;/a&gt;</span></code></pre>
+
+<p>With Bootstraps support for collapsible components you can use buttons to show or hide special contents. Keep your courses clean and avoid the scroll of death!</p>
+<div class="bs-example">
+<p><button class="btn btn-danger collapsed" data-target="#demo" data-toggle="collapse" type="button"> CLICK HERE!</button></p>
+<div style="height: 0px;" id="demo" class="collapse">
+  <img src="img/maths.png" width="1367" height="1032" alt="maths" />
+</div>
+<pre><code class="html"><span class="nt">&lt;p&gt;
+&lt;button</span> class="<span class="nt"><span class="s">btn btn-danger collapsed</span></span>" data-target="<span class="s">#demo</span>" data-toggle="<span class="s">collapse</span>" type="<span class="s">button</span>"<span class="nt">&gt;</span>CLICK HERE!<span class="nt">&lt;/button&gt;
+&lt;/p&gt;</span>
+<span class="nt">&lt;div</span> style="<span class="s">height: 0px;</span>" id="<span class="s">demo</span>" class="<span class="s">collapse</span>"<span class="nt">&gt;</span>
+<span class="nt">&lt;img</span> src="<span class="s">http://placehold.it/260x180</span>" alt="" <span class="nt">&gt;&lt;/img&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre>
+
+					<h4>Thumbnails</h4>
+                    <h5>Default thumbnails</h5>
+<p>By default, Bootstrap's thumbnails are designed to showcase linked images with minimal required markup.</p>
+<div class="bs-example">
+<div class="row-fluid">
+<ul class="thumbnails">
+<li class="span3">
+<a class="thumbnail" href="#">
+<img src="http://placehold.it/260x180" alt="">
+ </a>
+</li>
+<li class="span3">
+<a class="thumbnail" href="#">
+<img src="http://placehold.it/260x180" alt="">
+ </a>
+</li>
+<li class="span3">
+<a class="thumbnail" href="#">
+<img src="http://placehold.it/260x180" alt="">
+ </a>
+</li>
+<li class="span3">
+<a class="thumbnail" href="#">
+<img src="http://placehold.it/260x180" alt="">
+ </a>
+</li>
+</ul>
+</div></div>
+<pre><code class="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row-fluid"</span><span class="nt">&gt;</span>
+<span class="nt">  &lt;ul</span> class=<span class="s">"thumbnails"</span><span class="nt">&gt;</span>
+<span class="nt">    &lt;li</span> class=<span class="s">"span4"</span><span class="nt">&gt;</span>
+<span class="nt">      &lt;a</span> href=<span class="s">"..."</span> class=<span class="s">"thumbnail"</span><span class="nt">&gt;&lt;img</span> data-src=<span class="s">"..."</span> alt=<span class="s">"..."</span><span class="nt">&gt;&lt;/a&gt;</span>
+<span class="nt">    &lt;/li&gt;</span>
+     ...
+<span class="nt">  &lt;/ul&gt;</span><br><span class="nt">&lt;/div&gt;</span></code></pre>
+<div class="bs-example-full">
+<p>
+<button class="btn btn-info" type="button" data-toggle="collapse" data-target="#html-bs-tabs"><i class="fa fa-code"></i>
+ Get full HTML code</button>
+<div id="html-bs-tabs" class="collapse" style="height: 0px;">
+<pre>
+<code class="html">
+&lt;div class=&quot;row-fluid&quot;&gt;
+&lt;ul class=&quot;thumbnails&quot;&gt;
+&lt;li class=&quot;span3&quot;&gt;
+&lt;a class=&quot;thumbnail&quot; href=&quot;#&quot;&gt;
+&lt;img src=&quot;http://placehold.it/260x180&quot; alt=&quot;&quot;&gt;
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li class=&quot;span3&quot;&gt;
+&lt;a class=&quot;thumbnail&quot; href=&quot;#&quot;&gt;
+&lt;img src=&quot;http://placehold.it/260x180&quot; alt=&quot;&quot;&gt;
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li class=&quot;span3&quot;&gt;
+&lt;a class=&quot;thumbnail&quot; href=&quot;#&quot;&gt;
+&lt;img src=&quot;http://placehold.it/260x180&quot; alt=&quot;&quot;&gt;
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li class=&quot;span3&quot;&gt;
+&lt;a class=&quot;thumbnail&quot; href=&quot;#&quot;&gt;
+&lt;img src=&quot;http://placehold.it/260x180&quot; alt=&quot;&quot;&gt;
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</code>
+</pre>
+</div>
+</p></div>
+
+<h5>Highly customizable</h5>
+<p>With a bit of extra markup, it's possible to add any kind of HTML content like headings, paragraphs, or buttons into thumbnails.</p>
+<div class="bs-example">
+<div class="row-fluid">
+
+<ul class="thumbnails">
+<li class="span4">
+<div class="thumbnail">
+<img src="http://placehold.it/300x200" alt="">
+<div class="caption">
+<h4>Thumbnail label</h4>
+<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+<p>
+<a class="btn btn-primary" href="#">Action</a>
+<a class="btn btn-default" style="margin-left:10px;" href="#">Action</a>
+</p>
+</div>
+</div>
+</li>
+<li class="span4">
+<div class="thumbnail">
+<img src="http://placehold.it/300x200" alt="">
+<div class="caption">
+<h4>Thumbnail label</h4>
+<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+<p>
+<a class="btn btn-primary" href="#">Action</a>
+<a class="btn btn-default" style="margin-left:10px;" href="#">Action</a>
+</p>
+</div>
+</div>
+</li>
+<li class="span4">
+<div class="thumbnail">
+<img src="http://placehold.it/300x200" alt="">
+<div class="caption">
+<h4>Thumbnail label</h4>
+<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+<p>
+<a class="btn btn-primary" href="#">Action</a>
+<a class="btn btn-default" style="margin-left:10px;" href="#">Action</a>
+</p>
+</div>
+</div>
+</li>
+</ul>
+
+</div>
+</div>
+<pre><code class="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row-fluid"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"thumbnails"</span><span class="nt">&gt;<br></span></code><code class="html"><span class="nt"><code class="html"><span class="nt">  &lt;li</span> </code></span></code><code class="html"><span class="na">class=</span></code><code class="html"><span class="nt"><code class="html"><span class="s">"span4"</span><span class="nt">&gt;</span></code></span><br>    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"thumbnail"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;img</span> <span class="na">data-src=</span><span class="s">"..."</span> <span class="na">alt=</span><span class="s">"..."</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;h3&gt;</span>Thumbnail label<span class="nt">&lt;/h3&gt;</span>
+      <span class="nt">&lt;p&gt;</span>Cras justo odio, ...<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/li&gt;
+  </span><span class="nt"><code class="html">&lt;li </code></span></code><code class="html"><span class="na">class=</span></code><code class="html"><span class="nt"><code class="html"><span class="s">&quot;span4&quot;</span>&gt;</code></span></code><code class="html">...<span class="nt">&lt;/li&gt;
+</span><span class="nt"><code class="html">  &lt;li </code></span></code><code class="html"><span class="na">class=</span></code><code class="html"><span class="nt"><code class="html"><span class="s">&quot;span4&quot;</span>&gt;</code></span></code><code class="html">...<span class="nt">&lt;/li&gt;</span></code><code class="html">
+  <span class="nt">&lt;/ul&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre>
+<div class="bs-example-full">
+<p>
+<button class="btn btn-info" type="button" data-toggle="collapse" data-target="#html-spotlights"><i class="fa fa-code"></i>
+ Get full HTML code</button>
+<div id="html-spotlights" class="collapse" style="height: 0px;">
+<pre>
+<code class="html">
+&lt;div class=&quot;row-fluid&quot;&gt;
+&lt;ul class=&quot;thumbnails&quot;&gt;
+  &lt;li class=&quot;span4&quot;&gt;
+  &lt;div class=&quot;thumbnail&quot;&gt;
+  &lt;img src=&quot;...&quot; alt=&quot;...&quot;&gt;
+  &lt;div class=&quot;caption&quot;&gt;
+  &lt;h4&gt;Thumbnail label&lt;/h4&gt;
+  &lt;p&gt;Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt;
+  &lt;p&gt;
+  &lt;a class=&quot;btn btn-primary&quot; href=&quot;#&quot;&gt;Action&lt;/a&gt;
+  &lt;a class=&quot;btn btn-default&quot; style=&quot;margin-left:10px;&quot; href=&quot;#&quot;&gt;Action&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;span4&quot;&gt;
+  &lt;div class=&quot;thumbnail&quot;&gt;
+  &lt;img src=&quot;...&quot; alt=&quot;...&quot;&gt;
+  &lt;div class=&quot;caption&quot;&gt;
+  &lt;h4&gt;Thumbnail label&lt;/h4&gt;
+  &lt;p&gt;Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt;
+  &lt;p&gt;
+  &lt;a class=&quot;btn btn-primary&quot; href=&quot;#&quot;&gt;Action&lt;/a&gt;
+  &lt;a class=&quot;btn btn-default&quot; style=&quot;margin-left:10px;&quot; href=&quot;#&quot;&gt;Action&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;span4&quot;&gt;
+  &lt;div class=&quot;thumbnail&quot;&gt;
+  &lt;img src=&quot;...&quot; alt=&quot;...&quot;&gt;
+  &lt;div class=&quot;caption&quot;&gt;
+  &lt;h4&gt;Thumbnail label&lt;/h4&gt;
+  &lt;p&gt;Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt;
+  &lt;p&gt;
+  &lt;a class=&quot;btn btn-primary&quot; href=&quot;#&quot;&gt;Action&lt;/a&gt;
+  &lt;a class=&quot;btn btn-default&quot; style=&quot;margin-left:10px;&quot; href=&quot;#&quot;&gt;Action&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+</code>
+</pre>
+</div>
+</p></div>
+
+
+			    <h4>Panels</h4>
+                    <h5 id="panels-basic">Basic example</h5>
+<p>By default, all the <code>.panel</code> does is apply some basic border and padding to contain some content.</p>
+<div class="bs-example">
+<div class="panel panel-default">
+  <div class="panel-heading">Panel heading without title</div>
+  <div class="panel-body">
+    Panel content
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Panel title</h3>
+  </div>
+  <div class="panel-body">
+    Panel content
+  </div>
+</div>
+</div>
+<pre><code class="html"><span class="nt">&lt;div</span> class=<span class="s">"panel panel-default"</span><span class="nt">&gt;</span><span class="nt"><br>  &lt;div</span> class=<span class="s">"panel-heading"</span><span class="nt">&gt;</span>Panel heading without title<span class="nt">&lt;/div&gt;</span>
+<span class="nt">  &lt;div</span> class=<span class="s">"panel-body"</span><span class="nt">&gt;</span>
+    Panel content
+<span class="nt">  &lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> class=<span class="s">"panel panel-default"</span><span class="nt">&gt;</span> 
+<span class="nt">  &lt;div</span> class=<span class="s">"panel-heading"</span><span class="nt">&gt;</span>
+<span class="nt">    &lt;h3</span> class=<span class="s">"panel-title"</span><span class="nt">&gt;</span>Panel title<span class="nt">&lt;/h3&gt;</span>
+  <span class="nt">&lt;/div&gt;</span><br>  <span class="nt">&lt;div</span> class=<span class="s">"panel-body"</span><span class="nt">&gt;</span>
+    Panel content
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code><p></p></pre>
+
+<h5 id="panels-alternatives">Contextual alternatives</h5>
+  <p>Like other components, easily make a panel more meaningful to a particular context by adding any of the contextual state classes.</p>
+  <div class="bs-example">
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="panel-title">Panel primary</h3>
+      </div>
+      <div class="panel-body">
+        Panel content
+      </div>
+    </div>
+    <div class="panel panel-success">
+      <div class="panel-heading">
+        <h3 class="panel-title">Panel success</h3>
+      </div>
+      <div class="panel-body">
+        Panel content
+      </div>
+    </div>
+    <div class="panel panel-info">
+      <div class="panel-heading">
+        <h3 class="panel-title">Panel info</h3>
+      </div>
+      <div class="panel-body">
+        Panel content
+      </div>
+    </div>
+    <div class="panel panel-warning">
+      <div class="panel-heading">
+        <h3 class="panel-title">Panel warning</h3>
+      </div>
+      <div class="panel-body">
+        Panel content
+      </div>
+    </div>
+    <div class="panel panel-danger">
+      <div class="panel-heading">
+        <h3 class="panel-title">Panel danger</h3>
+      </div>
+      <div class="panel-body">
+        Panel content
+      </div>
+    </div>
+  </div>
+<pre><code class="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel panel-primary"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel panel-success"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel panel-info"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel panel-warning"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel panel-danger"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/div&gt;</span></code></pre>
+					
+                    
+					<div class="clearfix"></div>								
+				</div>	
+			</div>
+            
+		</div>
+	</div>
+	
+	<div class="clearfix"></div>
+
+	<script src="js/jquery-1.9.1.min.js"></script>	
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/custom.js"></script>
+	
+</body>
+</html>

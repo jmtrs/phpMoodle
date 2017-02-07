@@ -1,0 +1,367 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Theme Lambda Documentation</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800,700,400italic,600italic,700italic,800italic,300italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+	<div class="navbar">
+		<div class="navbar-inner">
+			<div class="container-fluid">
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".top-nav.nav-collapse,.sidebar-nav.nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</a>
+                <a class="brand" href="index.html">Theme Lambda Documentation</a>				
+			</div>
+		</div>
+	</div>
+	
+	<div class="container-fluid-full">
+		<div class="row-fluid">
+
+			<div id="sidebar-left" class="span2">
+				<div class="nav-collapse sidebar-nav">
+					<ul class="nav nav-tabs nav-stacked main-menu">
+						<li><a href="index.html">Introduction</span></a></li>	
+						<li><a href="installing.html">Installing the Theme</span></a></li>
+                        <li><a class="dropmenu" href="#">First Steps<i class="fa fa-caret-down pull-right"></i></a>
+							<ul>
+								<li><a class="submenu" href="profileblock.html">Theme UI</a></li>
+								<li><a class="submenu" href="moodle_settings.html">Settings in Moodle</a></li>
+							</ul>	
+						</li>
+                        <li><a class="dropmenu" href="#">Theme Options <i class="fa fa-caret-down pull-right"></i></a>
+							<ul>
+								<li><a class="submenu" href="options_general.html">General</a></li>
+								<li><a class="submenu" href="options_page_bg.html">Page Background</a></li>
+                                <li><a class="submenu" href="options_colors.html">Colors</a></li>
+                                <li><a class="submenu" href="options_social.html">Social Media</a></li>
+                                <li><a class="submenu" href="options_fonts.html">Fonts</a></li>
+                                <li><a class="submenu" href="options_frontpage.html">Frontpage Settings</a></li>
+							</ul>	
+						</li>
+                        <li><a class="dropmenu" href="#">Styling your Site <i class="fa fa-caret-down pull-right"></i></a>
+							<ul>
+								<li><a class="submenu" href="blocks.html">Managing Blocks</a></li>
+                                <li><a class="submenu" href="typography.html">General Typography</a></li>
+                                <li><a class="submenu" href="tables.html">Tables</a></li>
+                                <li><a class="submenu" href="font_awesome.html">Using Font Awesome</a></li>
+                                <li><a class="submenu" href="bs_grid.html">Bootstrap Grid System</a></li>
+								<li><a class="submenu" href="bs_components.html">Bootstrap Components</a></li>
+                                <li><a class="submenu" href="bs_plugins.html">Bootstrap Plugins</a></li>
+                                <li><a class="submenu" href="content_boxes.html">Content Boxes</a></li>
+                                <li><a class="submenu" href="elements.html">Theme Elements</a></li>
+							</ul>	
+						</li>
+                        <li><a class="dropmenu" href="#">Adding content <i class="fa fa-caret-down pull-right"></i></a>
+							<ul>
+								<li><a class="submenu" href="adding_content.html">Text editor</a></li>
+                                <li><a class="submenu" href="adding_content_iconbox.html">Example 1 - Iconboxes</a></li>
+                                <li><a class="submenu" href="adding_content_imagebox.html">Example 2 - Imageboxes</a></li>
+                                <li><a class="submenu" href="adding_content_parallax.html">Example 3 - Parallax Section</a></li>
+                                <li><a class="submenu" href="adding_content_courses.html">Course Design</a></li>
+								<li><a class="submenu" href="adding_content_video.html">Responsive Videos</a></li>
+							</ul>	
+						</li>
+                        <li><a href="updates.html">Updates</span></a></li>
+                        <li><a href="credits.html">Credits</span></a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div id="content" class="span10">
+				<div class="row-fluid">
+                
+					<h1 class="sectionheading"> Shortcodes: Content Boxes</h1>
+                	<div class="divider"></div>
+                    
+                    <h4>Icon Boxes</h4>
+<p>In this example, the icon-boxes are set up in a 4 column <a href="/course/view.php?id=11&amp;section=3">grid system</a> using <code>row-fluid</code> and <code>span3</code>.</p>
+<div class="bs-example">
+<div class="row-fluid">
+<div class="iconbox span3">
+<div class="iconcircle">
+<i class="fa fa-twitter"></i>
+</div>
+<div class="iconbox-content">
+<h4>First Heading</h4>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<a class="btn btn-default" href="#">Read More</a>
+</div>
+</div>
+<div class="iconbox span3">
+<div class="iconcircle">
+<i class="fa fa-sliders"></i>
+</div>
+<div class="iconbox-content">
+<h4>Second Heading</h4>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<a class="btn btn-default" href="#">Read More</a>
+</div>
+</div>
+<div class="iconbox span3">
+<div class="iconcircle">
+<i class="fa fa-flag"></i>
+</div>
+<div class="iconbox-content">
+<h4>Third Heading</h4>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<a class="btn btn-default" href="#">Read More</a>
+</div>
+</div>
+<div class="iconbox span3">
+<div class="iconcircle">
+<i class="fa fa-book"></i>
+</div>
+<div class="iconbox-content">
+<h4>Fourth Heading</h4>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<a class="btn btn-default" href="#">Read More</a>
+</div>
+</div>
+</div>
+</div>
+<pre><code class="html"><span class="nt">&lt;div</span> class=<span class="s">"row-fluid"</span><span class="nt">&gt;
+  &lt;div</span> class=<span class="s">"iconbox span3"</span><span class="nt">&gt;
+    &lt;div</span> class=<span class="s">"iconcircle"</span><span class="nt">&gt;
+      &lt;i</span> class=<span class="s">"fa fa-twitter"</span><span class="nt">&gt;&lt;/i&gt;
+    &lt;/div&gt;</span>
+  <span class="nt">  &lt;div</span> class=<span class="s">"iconbox-content"</span><span class="nt">&gt;<br></span>      ...<br>    <span class="nt">&lt;/div&gt;<br>&nbsp; &lt;/div&gt;<br>  &lt;div</span> class=<span class="s">"iconbox span3"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/div&gt;
+  &lt;div</span> class=<span class="s">"iconbox span3"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/div&gt;
+  &lt;div</span> class=<span class="s">"iconbox span3"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code>
+</pre>
+<div class="bs-example-full">
+<p>
+<button class="btn btn-info" type="button" data-toggle="collapse" data-target="#html-icon-boxes"><i class="fa fa-code"></i>
+ Get full HTML code</button>
+<div id="html-icon-boxes" class="collapse" style="height: 0px;">
+<pre>
+<code class="html">
+&lt;div class=&quot;row-fluid&quot;&gt;
+&lt;div class=&quot;iconbox span3&quot;&gt;
+&lt;div class=&quot;iconcircle&quot;&gt;
+&lt;i class=&quot;fa fa-twitter&quot;&gt;&lt;/i&gt;
+&lt;/div&gt;
+&lt;div class=&quot;iconbox-content&quot;&gt;
+&lt;h4&gt;First Heading&lt;/h4&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
+&lt;a class=&quot;btn btn-default&quot; href=&quot;#&quot;&gt;Read More&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;iconbox span3&quot;&gt;
+&lt;div class=&quot;iconcircle&quot;&gt;
+&lt;i class=&quot;fa fa-sliders&quot;&gt;&lt;/i&gt;
+&lt;/div&gt;
+&lt;div class=&quot;iconbox-content&quot;&gt;
+&lt;h4&gt;Second Heading&lt;/h4&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
+&lt;a class=&quot;btn btn-default&quot; href=&quot;#&quot;&gt;Read More&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;iconbox span3&quot;&gt;
+&lt;div class=&quot;iconcircle&quot;&gt;
+&lt;i class=&quot;fa fa-flag&quot;&gt;&lt;/i&gt;
+&lt;/div&gt;
+&lt;div class=&quot;iconbox-content&quot;&gt;
+&lt;h4&gt;Third Heading&lt;/h4&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
+&lt;a class=&quot;btn btn-default&quot; href=&quot;#&quot;&gt;Read More&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;iconbox span3&quot;&gt;
+&lt;div class=&quot;iconcircle&quot;&gt;
+&lt;i class=&quot;fa fa-book&quot;&gt;&lt;/i&gt;
+&lt;/div&gt;
+&lt;div class=&quot;iconbox-content&quot;&gt;
+&lt;h4&gt;Fourth Heading&lt;/h4&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
+&lt;a class=&quot;btn btn-default&quot; href=&quot;#&quot;&gt;Read More&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</code>
+</pre>
+</div>
+</p></div>
+
+<br>
+<hr />
+<h4>Text Boxes</h4>
+<div class="bs-example">
+<div class="text-box">
+<div class="text-box-heading">Some heading</div>
+<div class="arrow-down"></div>
+<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+</div>
+</div>
+<pre><code class="html"><span class="nt">&lt;div</span> class=<span class="s">"text-box"</span><span class="nt">&gt;
+  &lt;div</span> class=<span class="s">"text-box-heading"</span><span class="nt">&gt;</span>Some heading<span class="nt">&lt;/div&gt;
+  &lt;div</span> class=<span class="s">"arrow-down"</span><span class="nt">&gt;&lt;/div&gt;
+  &lt;p&gt;</span>Lorem ipsum ...<span class="nt">&lt;/p&gt;
+&lt;/div&gt;</span></code>
+</pre>
+
+<br>
+<hr />
+<h4>Image Boxes</h4>
+<p>In this example, the icon-boxes are set up in a 3 column <a href="/course/view.php?id=11&amp;section=3">grid system</a> using <code>row-fluid</code> and <code>span4</code>.</p>
+<div class="bs-example">
+<div class="row-fluid">
+<div class="image-box span4">
+<img src="img/french.jpg" alt="img1" class="img-responsive">
+<div class="image-box-content"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p><p style="text-align:center;"><a class="btn btn-default" href="#">Read More</a></p></div>
+</div>
+<div class="image-box span4">
+<img src="img/history.jpg" alt="img2" class="img-responsive">
+<div class="image-box-content"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p><p style="text-align:center;"><a class="btn btn-default" href="#">Read More</a></p></div>
+</div>
+<div class="image-box span4">
+<img src="img/math.jpg" alt="img3" class="img-responsive">
+<div class="image-box-content"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p><p style="text-align:center;"><a class="btn btn-default" href="#">Read More</a></p></div>
+</div>
+</div>
+</div>
+<pre><code class="html"><span class="nt">&lt;div</span> class=<span class="s">"row-fluid"</span><span class="nt">&gt;
+  &lt;div</span> class=<span class="s">"image-box span4"</span><span class="nt">&gt;
+    &lt;img</span> src=<span class="s">"..."</span>  class=<span class="s">"img-responsive"</span><span class="nt">&gt;
+    &lt;div</span> class=<span class="s">"image-box-content"</span><span class="nt">&gt;&lt;p&gt;</span>Lorem ipsum ...<span class="nt">&lt;/p&gt;&lt;/div&gt;
+  &lt;/div&gt;</span>
+<span class="nt">  &lt;div</span> class=<span class="s">"image-box span4"</span><span class="nt">&gt;</span>
+    ...
+<span class="nt">  &lt;/div&gt;</span>
+<span class="nt">  &lt;div</span> class=<span class="s">"image-box span4"</span><span class="nt">&gt;</span>
+    ...
+<span class="nt">  &lt;/div&gt;
+&lt;/div&gt;</span></code>
+</pre>
+<div class="bs-example-full">
+<p>
+<button class="btn btn-info" type="button" data-toggle="collapse" data-target="#html-image-boxes"><i class="fa fa-code"></i>
+ Get full HTML code</button>
+<div id="html-image-boxes" class="collapse" style="height: 0px;">
+<pre>
+<code class="html">
+&lt;div class=&quot;row-fluid&quot;&gt;
+&lt;div class=&quot;image-box span4&quot;&gt;
+&lt;img src=&quot;http://placehold.it/600x300&quot; alt=&quot;img1&quot; class=&quot;img-responsive&quot;&gt;
+&lt;div class=&quot;image-box-content&quot;&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.&lt;/p&gt;&lt;p style=&quot;text-align:center;&quot;&gt;&lt;a class=&quot;btn btn-default&quot; href=&quot;#&quot;&gt;Read More&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;image-box span4&quot;&gt;
+&lt;img src=&quot;http://placehold.it/600x300&quot; alt=&quot;img2&quot; class=&quot;img-responsive&quot;&gt;
+&lt;div class=&quot;image-box-content&quot;&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.&lt;/p&gt;&lt;p style=&quot;text-align:center;&quot;&gt;&lt;a class=&quot;btn btn-default&quot; href=&quot;#&quot;&gt;Read More&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;image-box span4&quot;&gt;
+&lt;img src=&quot;http://placehold.it/600x300&quot; alt=&quot;img3&quot; class=&quot;img-responsive&quot;&gt;
+&lt;div class=&quot;image-box-content&quot;&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.&lt;/p&gt;&lt;p style=&quot;text-align:center;&quot;&gt;&lt;a class=&quot;btn btn-default&quot; href=&quot;#&quot;&gt;Read More&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</code>
+</pre>
+</div>
+</p></div>
+
+<hr />
+<h4 id="promotion-boxes">Promotion Boxes</h4>
+<p>Use Theme Lambda's promotion boxes to grab the attention of your visitors:</p>
+<div class="bs-example">
+  <div class="prom-box prom-box-default">
+    <h3>heading prom-box-default</h3>
+      <p>Suscipit sed at montes at tellus. Aliquam nisl penatibus commodo massa mi rutrum, ut massa mollis dolor dui at, tortor ullamcorper vel diam pretium sit leo, pellentesque in leo eu mauris mollis aliquam, ultricies adipiscing eu a dui sollicitudin posuere.</p>
+  </div>
+  <div class="prom-box prom-box-info">
+    <h3>heading prom-box-info</h3>
+      <p>Suscipit sed at montes at tellus. Aliquam nisl penatibus commodo massa mi rutrum, ut massa mollis dolor dui at, tortor ullamcorper vel diam pretium sit leo, pellentesque in leo eu mauris mollis aliquam, ultricies adipiscing eu a dui sollicitudin posuere.</p>
+  </div>
+  <div class="prom-box prom-box-warning">
+    <h3>heading prom-box-warning</h3>
+      <p>Suscipit sed at montes at tellus. Aliquam nisl penatibus commodo massa mi rutrum, ut massa mollis dolor dui at, tortor ullamcorper vel diam pretium sit leo, pellentesque in leo eu mauris mollis aliquam, ultricies adipiscing eu a dui sollicitudin posuere.</p>
+  </div>
+  <div class="prom-box prom-box-danger">
+    <h3>heading prom-box-danger</h3>
+      <p>Suscipit sed at montes at tellus. Aliquam nisl penatibus commodo massa mi rutrum, ut massa mollis dolor dui at, tortor ullamcorper vel diam pretium sit leo, pellentesque in leo eu mauris mollis aliquam, ultricies adipiscing eu a dui sollicitudin posuere.</p>
+  </div>
+</div>
+<pre><code class="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"prom-box prom-box-default"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;h3&gt;</span>...<span class="nt">&lt;/h3&gt;</span>
+  <span class="nt">&lt;p&gt;</span>...<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"prom-box prom-box-info"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;h3&gt;</span>...<span class="nt">&lt;/h3&gt;</span>
+  <span class="nt">&lt;p&gt;</span>...<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"prom-box prom-box-warning"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;h3&gt;</span>...<span class="nt">&lt;/h3&gt;</span>
+  <span class="nt">&lt;p&gt;</span>...<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"prom-box prom-box-danger"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;h3&gt;</span>...<span class="nt">&lt;/h3&gt;</span>
+  <span class="nt">&lt;p&gt;</span>...<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre>
+
+<p>Theme Lambda's promotion boxes are very customizable and can contain any html content:</p>
+<div class="bs-example">
+  <div class="prom-box prom-box-default">
+<h3>heading prom-box-default</h3>
+<a class="btn btn-danger pull-right" href="#"><i class="fa fa-share fa-lg"></i> Button</a>   
+      <p>Suscipit sed at montes at tellus. Aliquam nisl penatibus commodo massa mi rutrum, ut massa mollis dolor dui at, tortor ullamcorper vel diam pretium sit leo, pellentesque in leo eu mauris mollis aliquam, ultricies adipiscing eu a dui sollicitudin posuere.</p>
+  </div>  
+</div>
+<pre><code class="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"prom-box prom-box-default"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;h3&gt;</span>...<span class="nt">&lt;/h3&gt;</span>
+  <span class="nt">&lt;a</span> class=<span class="s">"btn btn-danger pull-right"</span> href=<span class="s">"#"</span><span class="nt">&gt;&lt;i</span> class=<span class="s">"fa fa-share fa-lg"</span><span class="nt">&gt;&lt;/i&gt;</span> Button<span class="nt">&lt;/a&gt;</span>
+  <span class="nt">&lt;p&gt;</span>...<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre>
+
+<p>You can even add shadow classes:</p>
+<div class="bs-example">
+  <div class="prom-box prom-box-default shadow1">
+<h3>shadow1</h3> 
+      <p>Suscipit sed at montes at tellus. Aliquam nisl penatibus commodo massa mi rutrum, ut massa mollis dolor dui at, tortor ullamcorper vel diam pretium sit leo, pellentesque in leo eu mauris mollis aliquam, ultricies adipiscing eu a dui sollicitudin posuere.</p>
+  </div> 
+  <div class="prom-box prom-box-default shadow2">
+<h3>shadow2</h3> 
+      <p>Suscipit sed at montes at tellus. Aliquam nisl penatibus commodo massa mi rutrum, ut massa mollis dolor dui at, tortor ullamcorper vel diam pretium sit leo, pellentesque in leo eu mauris mollis aliquam, ultricies adipiscing eu a dui sollicitudin posuere.</p>
+  </div>
+</div>
+<pre><code class="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"prom-box prom-box-default shadow1"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;h3&gt;</span>...<span class="nt">&lt;/h3&gt;</span>
+  <span class="nt">&lt;p&gt;</span>...<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"prom-box prom-box-default shadow2"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;h3&gt;</span>...<span class="nt">&lt;/h3&gt;</span>
+  <span class="nt">&lt;p&gt;</span>...<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre>
+                    
+					<div class="clearfix"></div>								
+				</div>	
+			</div>
+            
+		</div>
+	</div>
+	
+	<div class="clearfix"></div>
+
+	<script src="js/jquery-1.9.1.min.js"></script>	
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/custom.js"></script>
+	
+</body>
+</html>

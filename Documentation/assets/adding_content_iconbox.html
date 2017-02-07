@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Theme Lambda Documentation</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800,700,400italic,600italic,700italic,800italic,300italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+	<div class="navbar">
+		<div class="navbar-inner">
+			<div class="container-fluid">
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".top-nav.nav-collapse,.sidebar-nav.nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</a>
+                <a class="brand" href="index.html">Theme Lambda Documentation</a>				
+			</div>
+		</div>
+	</div>
+	
+	<div class="container-fluid-full">
+		<div class="row-fluid">
+
+			<div id="sidebar-left" class="span2">
+				<div class="nav-collapse sidebar-nav">
+					<ul class="nav nav-tabs nav-stacked main-menu">
+						<li><a href="index.html">Introduction</span></a></li>	
+						<li><a href="installing.html">Installing the Theme</span></a></li>
+                        <li><a class="dropmenu" href="#">First Steps<i class="fa fa-caret-down pull-right"></i></a>
+							<ul>
+								<li><a class="submenu" href="profileblock.html">Theme UI</a></li>
+								<li><a class="submenu" href="moodle_settings.html">Settings in Moodle</a></li>
+							</ul>	
+						</li>
+                        <li><a class="dropmenu" href="#">Theme Options <i class="fa fa-caret-down pull-right"></i></a>
+							<ul>
+								<li><a class="submenu" href="options_general.html">General</a></li>
+								<li><a class="submenu" href="options_page_bg.html">Page Background</a></li>
+                                <li><a class="submenu" href="options_colors.html">Colors</a></li>
+                                <li><a class="submenu" href="options_social.html">Social Media</a></li>
+                                <li><a class="submenu" href="options_fonts.html">Fonts</a></li>
+                                <li><a class="submenu" href="options_frontpage.html">Frontpage Settings</a></li>
+							</ul>	
+						</li>
+                        <li><a class="dropmenu" href="#">Styling your Site <i class="fa fa-caret-down pull-right"></i></a>
+							<ul>
+								<li><a class="submenu" href="blocks.html">Managing Blocks</a></li>
+                                <li><a class="submenu" href="typography.html">General Typography</a></li>
+                                <li><a class="submenu" href="tables.html">Tables</a></li>
+                                <li><a class="submenu" href="font_awesome.html">Using Font Awesome</a></li>
+                                <li><a class="submenu" href="bs_grid.html">Bootstrap Grid System</a></li>
+								<li><a class="submenu" href="bs_components.html">Bootstrap Components</a></li>
+                                <li><a class="submenu" href="bs_plugins.html">Bootstrap Plugins</a></li>
+                                <li><a class="submenu" href="content_boxes.html">Content Boxes</a></li>
+                                <li><a class="submenu" href="elements.html">Theme Elements</a></li>
+							</ul>	
+						</li>
+                        <li><a class="dropmenu" href="#">Adding content <i class="fa fa-caret-down pull-right"></i></a>
+							<ul>
+								<li><a class="submenu" href="adding_content.html">Text editor</a></li>
+                                <li><a class="submenu" href="adding_content_iconbox.html">Example 1 - Iconboxes</a></li>
+                                <li><a class="submenu" href="adding_content_imagebox.html">Example 2 - Imageboxes</a></li>
+                                <li><a class="submenu" href="adding_content_parallax.html">Example 3 - Parallax Section</a></li>
+                                <li><a class="submenu" href="adding_content_courses.html">Course Design</a></li>
+								<li><a class="submenu" href="adding_content_video.html">Responsive Videos</a></li>
+							</ul>	
+						</li>
+                        <li><a href="updates.html">Updates</span></a></li>
+                        <li><a href="credits.html">Credits</span></a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div id="content" class="span10">
+				<div class="row-fluid">
+                
+					<h1 class="sectionheading"> Adding content</h1>
+					<div class="divider"></div>
+                   
+				   <h4>Example: Adding icon boxes</h4>
+                   <p>The demo site of Theme Lambda contains a row of four icon boxes below the slider. They have a smooth hover effect and they can also contain buttons and links, for example to refer to another page with a "Read more" link.</p>
+                   <ul>
+                   <li>
+                   		<strong>First step: Copying the HTML</strong>
+                        <p>At first, we have to copy the HTML code lines for the icon boxes from the "Styling your Site" section in this documentation. So go to "Styling your site" > "Content Boxes" or just click <a href="content_boxes.html" target="_blank">here.</a></p>
+                        <p>In most cases, the HTML code you find directly below the example is shortened to make it easier to read and comprehend. If you click on the "Get full HTML" button below you will get <em>all</em> HTML code lines of the given example. Copy them to the clipboard.</p>
+                        <p style="text-align:center;"><img src="img/adding-content-01.png" width="600" height="256" alt="adding-content-01" /></p>
+                   </li>
+                   <li>
+                   		<strong>Second step: Adding a label to the Frontpage</strong>
+                        <p>Now go back to the Frontpage ("Home").</p>
+                        <p>To add an activity or resource to a course or to the frontpage you alway have to turn editing on by clicking the button top right or the link in "Administration" > "Course administration". Then, click "Add an activity or resource" to open the new activity chooser. Here, select "label" and then click the "Add" button, or simply double-click on the resource name.</p>
+                        <p>First, you have to switch the edtor to HTML/code view (see also: <a href="https://docs.moodle.org/27/en/Text_editor#Atto_HTML_editor" target="_blank"> https://docs.moodle.org/27/en/Text_editor#Atto_HTML_editor</a>).</p>
+                        <p style="text-align:center;"><img src="img/adding-content-02.png" width="600" height="256" alt="adding-content-02" /></p>
+                        <p>Here, insert the HTML from step one and close the HTML/code view. In the preview of the editor you should now see the icon boxes.</p>
+                   </li>
+                   <li>
+                   		<strong>Third step: Editing the icon boxes</strong>
+                        <p><strong><em>Editing the text:</em></strong> This is the easiest part! You can change the text directly in the editor.</p>
+                        <p style="text-align:center;"><img src="img/adding-content-03.png" width="600" height="256" alt="adding-content-03" /></p>
+                        <p>If you don't see a correct preview of the icon boxes in the editor, your are either working with a Moodle version prior to 2.7 or you have the TinyMCE editor as your default editor. In both cases, I recommend switching to the Atto editor. Atto is a javascript text editor built specifically for Moodle and it is the default text editor in Moodle from 2.7 onwards.</p>
+                        <p>To download Atto text editor for Moodle 2.5 or Moodle 2.6: <a href="https://moodle.org/plugins/view.php?plugin=editor_atto" target="_blank">https://moodle.org/plugins/view.php?plugin=editor_atto</a></p>
+                        <p>To change the default editor for Moodle 2.7 to current go to "Administration" > "Site administration" > "Plugins" > "Text editors" > "Manage editors". The order of priority may also be specified here.</p>
+                        <p><strong><em>Editing the buttons and links:</em></strong> You can place the cursor directly into the button to change the button's description. If the cursor is within the button, you can also click on the "link" icon of the editor to change the reference of the hyperlink. Also, deleting the button's description will remove the entire button.</p>
+                        <p style="text-align:center;"><img src="img/adding-content-04.png" width="600" height="256" alt="adding-content-04" /></p>
+                        <p><strong><em>Editing the icons:</em></strong> To do this, you have to to switch the edtor to HTML/code view again. The icons are embedded via the Font Awesome icon font. Font Awesome is designed to be used with inline elements like</p>
+                        <p><pre><code class="html">&lt;i class=&quot;...&quot;&gt;&lt;/i&gt;</code></pre></p>
+                        <p>In the example, you will find in line 4 the following code:</p>
+                        <p><pre><code class="html">&lt;i class=&quot;fa fa-twitter&quot;&gt;&lt;/i&gt;</code></pre></p>
+                        <p>This is the icon for the "Twitter bird". So to change the icon, you will have to change this line.</p>
+                        <p>Now go to the Font Awesome icons list: <a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank"> http://fortawesome.github.io/Font-Awesome/icons/</a>.</p>
+                        <p>Here, you can choose your desired icon.</p>
+                        <p>Click on the desired icon and the code line for this icon will show up. In the Moodle editor, you can now replace line 4 (the code for the "Twitter bird" icon) with the code for the new icon.</p>
+                        <p>For a more detailed example on how to add a Font Awesome icon please read the section <a href="font_awesome.html">"Styling your site" > "Using Font Awesome"</a> in this documentation.</p>
+                   </li>
+                   </ul>
+
+                    <hr />
+                    
+            <div class="reference">
+            <p>See also:</p>
+            <ul>
+            	<li><a href="https://docs.moodle.org/27/en/Course_homepage#Activities_and_resources" target="_blank">https://docs.moodle.org/27/en/Course_homepage#Activities_and_resources</a></li>
+                <li><a href="https://docs.moodle.org/27/en/Text_editor" target="_blank">https://docs.moodle.org/27/en/Text_editor</a></li>
+            </ul>
+            </div> 
+
+					<div class="clearfix"></div>								
+				</div>	
+			</div>
+            
+		</div>
+	</div>
+	
+	<div class="clearfix"></div>
+
+	<script src="js/jquery-1.9.1.min.js"></script>	
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/custom.js"></script>
+	
+</body>
+</html>

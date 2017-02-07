@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Theme Lambda Documentation</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800,700,400italic,600italic,700italic,800italic,300italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+	<div class="navbar">
+		<div class="navbar-inner">
+			<div class="container-fluid">
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".top-nav.nav-collapse,.sidebar-nav.nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</a>
+                <a class="brand" href="index.html">Theme Lambda Documentation</a>				
+			</div>
+		</div>
+	</div>
+	
+	<div class="container-fluid-full">
+		<div class="row-fluid">
+
+			<div id="sidebar-left" class="span2">
+				<div class="nav-collapse sidebar-nav">
+					<ul class="nav nav-tabs nav-stacked main-menu">
+						<li><a href="index.html">Introduction</span></a></li>	
+						<li><a href="installing.html">Installing the Theme</span></a></li>
+                        <li><a class="dropmenu" href="#">First Steps<i class="fa fa-caret-down pull-right"></i></a>
+							<ul>
+								<li><a class="submenu" href="profileblock.html">Theme UI</a></li>
+								<li><a class="submenu" href="moodle_settings.html">Settings in Moodle</a></li>
+							</ul>	
+						</li>
+                        <li><a class="dropmenu" href="#">Theme Options <i class="fa fa-caret-down pull-right"></i></a>
+							<ul>
+								<li><a class="submenu" href="options_general.html">General</a></li>
+								<li><a class="submenu" href="options_page_bg.html">Page Background</a></li>
+                                <li><a class="submenu" href="options_colors.html">Colors</a></li>
+                                <li><a class="submenu" href="options_social.html">Social Media</a></li>
+                                <li><a class="submenu" href="options_fonts.html">Fonts</a></li>
+                                <li><a class="submenu" href="options_frontpage.html">Frontpage Settings</a></li>
+							</ul>	
+						</li>
+                        <li><a class="dropmenu" href="#">Styling your Site <i class="fa fa-caret-down pull-right"></i></a>
+							<ul>
+								<li><a class="submenu" href="blocks.html">Managing Blocks</a></li>
+                                <li><a class="submenu" href="typography.html">General Typography</a></li>
+                                <li><a class="submenu" href="tables.html">Tables</a></li>
+                                <li><a class="submenu" href="font_awesome.html">Using Font Awesome</a></li>
+                                <li><a class="submenu" href="bs_grid.html">Bootstrap Grid System</a></li>
+								<li><a class="submenu" href="bs_components.html">Bootstrap Components</a></li>
+                                <li><a class="submenu" href="bs_plugins.html">Bootstrap Plugins</a></li>
+                                <li><a class="submenu" href="content_boxes.html">Content Boxes</a></li>
+                                <li><a class="submenu" href="elements.html">Theme Elements</a></li>
+							</ul>	
+						</li>
+                        <li><a class="dropmenu" href="#">Adding content <i class="fa fa-caret-down pull-right"></i></a>
+							<ul>
+								<li><a class="submenu" href="adding_content.html">Text editor</a></li>
+                                <li><a class="submenu" href="adding_content_iconbox.html">Example 1 - Iconboxes</a></li>
+                                <li><a class="submenu" href="adding_content_imagebox.html">Example 2 - Imageboxes</a></li>
+                                <li><a class="submenu" href="adding_content_parallax.html">Example 3 - Parallax Section</a></li>
+                                <li><a class="submenu" href="adding_content_courses.html">Course Design</a></li>
+								<li><a class="submenu" href="adding_content_video.html">Responsive Videos</a></li>
+							</ul>	
+						</li>
+                        <li><a href="updates.html">Updates</span></a></li>
+                        <li><a href="credits.html">Credits</span></a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div id="content" class="span10">
+				<div class="row-fluid">
+                
+					<h1 class="sectionheading"> Adding content</h1>
+					<div class="divider"></div>
+                    
+                    <h4>Embedding Responsive Video</h4>
+                   <p>Services like Youtube provide code for embedding players for their videos directly in your content. However, these players don't react responsive by default. With Theme Lambda, you can easily make your videos responsive in Moodle.</p>
+                   <ul>
+                   <li>
+                   		<strong>First step: Copy the embed code</strong>
+                        <p>At first, select your desired video. The screenshots in this example refer to Youtube, but other video-sharing services like Vimeo provide the same functionalities.</p>
+                        <p>Here, click the 'Share' button and select the 'Embed' tab.</p>
+                        <p>Now, select and copy the embed code line:</p>
+                        <p style="text-align:center;"><img src="img/adding-content-07.png" width="841" height="278" alt="embed code" /></p>
+                    </li>
+                    <li>
+                    	<strong>Second step: Add a label for the selected video</strong>
+                        <p>To add a resource, turn editing on by clicking the button top right or the link in "Administration" > "Course administration". Then, click "Add an activity or resource". Here, select "label" and then click the "Add" button.</p>
+                        <p>Switch the edtor to HTML/code view (see also: <a href="https://docs.moodle.org/27/en/Text_editor#Atto_HTML_editor" target="_blank"> https://docs.moodle.org/27/en/Text_editor#Atto_HTML_editor</a>).</p>
+                        <p style="text-align:center;"><img src="img/adding-content-09.png" width="825" height="57" alt="html code view" /></p>
+                        <p>Here, insert the embed code line from step one.</p>
+                    </li>
+                    <li>
+                    	<strong>Third step: Add a css class for your responsive Moodle video</strong>
+                        <p>Now wrap the embed code line with a DIV container and add the class 'responsive-video' like shown below:</p>
+                      
+                        <p><pre><span style="color:#C00;">&lt;div class=&quot;responsive-video&quot;&gt;</span><br />    &lt;iframe src=&quot;...&quot;&gt;&lt;/iframe&gt;<br /><span style="color:#C00;">&lt;/div&gt;</span></pre>
+                        </p>
+                        <p style="text-align:center;"><img src="img/adding-content-08.png" width="825" height="230" alt="responsive-video class" /></p>
+                        
+                    </li>
+                    </ul>
+                   
+                   <hr />
+ 
+                    
+            <div class="reference">
+            <p>See also:</p>
+            <ul>
+            	<li><a href="https://docs.moodle.org/27/en/Course_homepage#Activities_and_resources" target="_blank">https://docs.moodle.org/27/en/Course_homepage#Activities_and_resources</a></li>
+                <li><a href="https://docs.moodle.org/27/en/Text_editor" target="_blank">https://docs.moodle.org/27/en/Text_editor</a></li>
+            </ul>
+            </div> 
+
+					<div class="clearfix"></div>								
+				</div>	
+			</div>
+            
+		</div>
+	</div>
+	
+	<div class="clearfix"></div>
+
+	<script src="js/jquery-1.9.1.min.js"></script>	
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/custom.js"></script>
+	
+</body>
+</html>

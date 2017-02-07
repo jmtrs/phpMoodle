@@ -1,0 +1,221 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Theme Lambda Documentation</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800,700,400italic,600italic,700italic,800italic,300italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+	<div class="navbar">
+		<div class="navbar-inner">
+			<div class="container-fluid">
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".top-nav.nav-collapse,.sidebar-nav.nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</a>
+                <a class="brand" href="index.html">Theme Lambda Documentation</a>				
+			</div>
+		</div>
+	</div>
+	
+	<div class="container-fluid-full">
+		<div class="row-fluid">
+
+			<div id="sidebar-left" class="span2">
+				<div class="nav-collapse sidebar-nav">
+					<ul class="nav nav-tabs nav-stacked main-menu">
+						<li><a href="index.html">Introduction</span></a></li>	
+						<li><a href="installing.html">Installing the Theme</span></a></li>
+                        <li><a class="dropmenu" href="#">First Steps<i class="fa fa-caret-down pull-right"></i></a>
+							<ul>
+								<li><a class="submenu" href="profileblock.html">Theme UI</a></li>
+								<li><a class="submenu" href="moodle_settings.html">Settings in Moodle</a></li>
+							</ul>	
+						</li>
+                        <li><a class="dropmenu" href="#">Theme Options <i class="fa fa-caret-down pull-right"></i></a>
+							<ul>
+								<li><a class="submenu" href="options_general.html">General</a></li>
+								<li><a class="submenu" href="options_page_bg.html">Page Background</a></li>
+                                <li><a class="submenu" href="options_colors.html">Colors</a></li>
+                                <li><a class="submenu" href="options_social.html">Social Media</a></li>
+                                <li><a class="submenu" href="options_fonts.html">Fonts</a></li>
+                                <li><a class="submenu" href="options_frontpage.html">Frontpage Settings</a></li>
+							</ul>	
+						</li>
+                        <li><a class="dropmenu" href="#">Styling your Site <i class="fa fa-caret-down pull-right"></i></a>
+							<ul>
+								<li><a class="submenu" href="blocks.html">Managing Blocks</a></li>
+                                <li><a class="submenu" href="typography.html">General Typography</a></li>
+                                <li><a class="submenu" href="tables.html">Tables</a></li>
+                                <li><a class="submenu" href="font_awesome.html">Using Font Awesome</a></li>
+                                <li><a class="submenu" href="bs_grid.html">Bootstrap Grid System</a></li>
+								<li><a class="submenu" href="bs_components.html">Bootstrap Components</a></li>
+                                <li><a class="submenu" href="bs_plugins.html">Bootstrap Plugins</a></li>
+                                <li><a class="submenu" href="content_boxes.html">Content Boxes</a></li>
+                                <li><a class="submenu" href="elements.html">Theme Elements</a></li>
+							</ul>	
+						</li>
+                        <li><a class="dropmenu" href="#">Adding content <i class="fa fa-caret-down pull-right"></i></a>
+							<ul>
+								<li><a class="submenu" href="adding_content.html">Text editor</a></li>
+                                <li><a class="submenu" href="adding_content_iconbox.html">Example 1 - Iconboxes</a></li>
+                                <li><a class="submenu" href="adding_content_imagebox.html">Example 2 - Imageboxes</a></li>
+                                <li><a class="submenu" href="adding_content_parallax.html">Example 3 - Parallax Section</a></li>
+                                <li><a class="submenu" href="adding_content_courses.html">Course Design</a></li>
+								<li><a class="submenu" href="adding_content_video.html">Responsive Videos</a></li>
+							</ul>	
+						</li>
+                        <li><a href="updates.html">Updates</span></a></li>
+                        <li><a href="credits.html">Credits</span></a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div id="content" class="span10">
+				<div class="row-fluid">
+                
+					<h1 class="sectionheading"> Using Font Awesome</h1>
+                	<div class="divider"></div>
+                    
+                    <p>Font Awesome gives you scalable vector icons that can instantly be customized -- size, color, drop shadow, and anything that can be done with the power of CSS. Plus: Font Awesome won't trip up screen readers, unlike other icon fonts.</p>
+                    <h4>Basic Usage</h4>
+                    <div class="row-fluid">
+    <div class="span2">
+      <p>
+        <i class="fa fa-camera-retro"></i> fa-camera-retro
+      </p>
+    </div>
+    <div class="span10">
+      <p>
+        You can place Font Awesome icons just about anywhere using the CSS Prefix <code>fa</code> and the icon's
+        name. Font Awesome is designed to be used with the inline tag <code>&lt;i&gt;</code>.
+      </p>
+<pre><code class="html"><span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-camera-retro"</span><span class="nt">&gt;&lt;/i&gt;</span> fa-camera-retro
+</code></pre>
+      <div class="alert alert-info">
+        <ul class="fa-ul">
+          <li>
+            <i class="fa fa-info-circle fa-lg fa-li"></i>
+            If you change the font-size of the icon's container, the icon gets bigger. Same things goes for color,
+            drop shadow, and anything else that gets inherited using CSS.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+      
+      				<hr />
+                    <h4>Detailed example</h4>
+                    
+                    <p>Let's add a label containing a Font Awesome icon to a Moodle course.</p>
+                    <p>To edit a course section you always have to turn editing on first. Now you can add resources via the "Add an activity or resource" link. Here, choose "label".</p>
+                    <p>Let's say you want to add some kind of general informations about your course which your users should read before they begin. To make sure that these informations will not be missed, you want to mark them with an icon.</p>
+                    <p>First, we start with the text for the new label. For those who are not familiar with HTML, it is a good idea to use a placeholder for the icon:</p>
+                    <p style="text-align:center;"><img src="img/font-awesome-01.png" width="550" height="168" alt="font-awesome-01" /></p>
+                    <p>You can now format the text, for example use a heading format to increase the font-size.<br />
+                    <strong>Note:  </strong>If you change the font-size of the icon's container (here the paragraph where you place the icon), the icon will get bigger, too. Same thing goes for color.</p>
+                    <p style="text-align:center;"><img src="img/font-awesome-02.png" width="550" height="168" alt="font-awesome-02" /></p>
+                    <p>Now go to the <a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank">Font Awesome project page</a> to choose an icon.</p>
+                    <p style="text-align:center;"><img src="img/font-awesome-03.png" width="550" height="168" alt="font-awesome-03" /></p>                   
+                    <p>For this example, we choose the "check-circle" icon (left-click).</p>
+                    <p>Now copy the code for that icon.</p>
+                    <p style="text-align:center;"><img src="img/font-awesome-04.png" width="550" height="168" alt="font-awesome-04" /></p>
+                    <p>Back in Moodle, switch the edtor to HTML/code view (see also: <a href="https://docs.moodle.org/27/en/Text_editor#Atto_HTML_editor" target="_blank"> https://docs.moodle.org/27/en/Text_editor#Atto_HTML_editor</a>).</p>
+                    <p style="text-align:center;"><img src="img/font-awesome-05.png" width="550" height="168" alt="font-awesome-05" /></p>
+                    <p>Look for your placeholder text "ICON" and replace it with the HTML for the icon.</p>
+                    <p style="text-align:center;"><img src="img/font-awesome-06.png" width="550" height="168" alt="font-awesome-06" /></p>
+                    <p style="text-align:center;"><img src="img/font-awesome-07.png" width="550" height="168" alt="font-awesome-07" /></p>
+                    <p>Close the HTML/code view. In the preview of the editor you should now see the Font Awesome icon.</p>
+                    <p style="text-align:center;"><img src="img/font-awesome-08.png" width="550" height="168" alt="font-awesome-08" /></p>
+                    
+                    <hr />
+  					<h4>Learn more about Font Awesome</h4>
+                    
+                    <div class="alert alert-success">
+                    <i class="fa fa-hand-o-right fa-4x pull-left"></i>
+                    <p>To learn more about how to add and use the Font Awesome icons, the best place to start is the Font Awesome project site:
+        <ul class="fa-ul">
+          <li>
+            <a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank"><i class="fa fa-external-link"></i> The complete Font Awesome icon reference</a>
+          </li>
+          <li>
+            <a href="http://fortawesome.github.io/Font-Awesome/examples/" target="_blank"><i class="fa fa-external-link"></i> Examples how to use Font Awesome</a>
+          </li>
+        </ul>
+      </div>
+                    
+                  <hr />
+                    
+  					<h4 id="troubleshooting">Troubleshooting</h4>
+                    
+                    <p><strong><i class="fa fa-caret-right fa-lg"></i> General Recommendation: Using the Atto editor</strong><p>
+                    <img src="img/info.png" width="64" height="64" alt="info" style="float:left;margin-right:15px;margin-bottom:15px;" />
+                    <p>If you are working with a Moodle version prior to 2.7 or if you are using the TinyMCE as your default editor in Moodle 2.7 or 2.8, there will be certain cases in which the editor deletes all <code>&lt;i&gt;</code> tags on saving (see also: <a href ="https://moodle.org/mod/forum/discuss.php?d=240159" target="_blank">https://moodle.org/mod/forum/discuss.php?d=240159</a>).</p>
+                    <p>So if your are working with Moodle version 2.5 or 2.6, I recommend installing the Atto editor. Atto is a javascript text editor built specifically for Moodle and it is the default text editor in Moodle from 2.7 onwards.<p>
+                    <p><a href ="https://moodle.org/plugins/view.php?plugin=editor_atto" target="_blank">Download Atto text editor for Moodle 2.5 or Moodle 2.6</a></p>
+                    <p>If you are using a Moodle version 2.7 or higher, make sure the Atto editor is your default editor. Text editors can be enabled, disabled or a different one set to default from "Administration" > "Site administration" > "Plugins" > "Text editors" > "Manage editors".</p>
+                    <br />
+                    
+                    <p><strong><i class="fa fa-caret-right fa-lg"></i> The Font Awesome icons don't show up at all!</strong><p>
+                    <p>Font Awesome icons are used throughout the theme. Especially, each Moodle block should have an icon to the top left:</p>
+                    <p style="text-align:center;"><img src="img/font_awesome_01.png" width="519" height="108" alt="block icons" /></p>
+                    
+                    <p>If the icons show up here and you have problems that new icons you have included in the HTML by using the text editor, please read the <em>"General Recommendation"</em> right above.</p>
+                    <p><strong>If the icons don't show up even at the blocks, try the following steps:</strong></p>
+                    <img src="img/wrench.png" width="64" height="64" alt="wrench" style="float:left;margin-right:15px;margin-bottom:15px;" />
+
+                    <p>First of all, try to deactivate the designer mode. Theme designer mode may be deactivated via "Administration" > "Appearance" > "Themes" > "Theme settings".</p> 
+ 					<p>If the problem with the icons persist, you can use an optional way to load the icon font. Please try the following steps:</p>
+                    <p>As an administrator go to "Site administration" > "Appearance" > "Additional HTML".
+In the text field "Within HEAD" add this line:</p>
+<p><pre>&lt;link href=&quot;//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css&quot; rel=&quot;stylesheet&quot;&gt;</pre></p>
+					<br />
+
+					<p><strong><i class="fa fa-caret-right fa-lg"></i> On the font Awesome project page, they present some new icons which I can't use</strong><p>
+                    <img src="img/cloud.png" width="64" height="64" alt="cloud" style="float:left;margin-right:15px;margin-bottom:15px;" />
+
+                    <p>The icon font is included in your download of Theme Lambda. This has the advantage that the icon font is already embedded without any further settings and that it can also be displayed in testing environments without an internet connection.</p>
+                    <p>But if a new version of Font Awesome is released, you won't be able to use the latest icons which were added to the new version. In this case, you can use an optional way to load the icon font to your Moodle site. Please visit the Font Awesome project site at<br /><a href="http://fortawesome.github.io/Font-Awesome/get-started/" target="_blank">http://fortawesome.github.io/Font-Awesome/get-started/</a></p>
+                    <p>At the section "EASIEST: BootstrapCDN by MaxCDN" you will find a single line of code like:</p>
+                    <p><pre>&lt;link href=&quot;//maxcdn.bootstrapcdn.com/font-awesome/-VERSION-/css/font-awesome.min.css&quot; rel=&quot;stylesheet&quot;&gt;</pre></p>
+                    <p>... with the current version number. Copy this line.</p>
+                    <p>As an administrator go to "Site administration" > "Appearance" > "Additional HTML".
+In the text field "Within HEAD" insert the copied code line.</p>
+
+					<br />
+                    
+                    <div class="reference">
+           		 	<p>See also:</p>
+            		<ul>
+            			<li><a href="https://docs.moodle.org/28/en/Text_editor" target="_blank">https://docs.moodle.org/28/en/Text_editor</li>
+		            </ul>
+            		</div>
+					
+                    
+					<div class="clearfix"></div>								
+				</div>	
+			</div>
+            
+		</div>
+	</div>
+	
+	<div class="clearfix"></div>
+
+	<script src="js/jquery-1.9.1.min.js"></script>	
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/custom.js"></script>
+	
+</body>
+</html>

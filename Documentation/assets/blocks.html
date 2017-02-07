@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Theme Lambda Documentation</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800,700,400italic,600italic,700italic,800italic,300italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+	<div class="navbar">
+		<div class="navbar-inner">
+			<div class="container-fluid">
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".top-nav.nav-collapse,.sidebar-nav.nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</a>
+                <a class="brand" href="index.html">Theme Lambda Documentation</a>				
+			</div>
+		</div>
+	</div>
+	
+	<div class="container-fluid-full">
+		<div class="row-fluid">
+
+			<div id="sidebar-left" class="span2">
+				<div class="nav-collapse sidebar-nav">
+					<ul class="nav nav-tabs nav-stacked main-menu">
+						<li><a href="index.html">Introduction</span></a></li>	
+						<li><a href="installing.html">Installing the Theme</span></a></li>
+                        <li><a class="dropmenu" href="#">First Steps<i class="fa fa-caret-down pull-right"></i></a>
+							<ul>
+								<li><a class="submenu" href="profileblock.html">Theme UI</a></li>
+								<li><a class="submenu" href="moodle_settings.html">Settings in Moodle</a></li>
+							</ul>	
+						</li>
+                        <li><a class="dropmenu" href="#">Theme Options <i class="fa fa-caret-down pull-right"></i></a>
+							<ul>
+								<li><a class="submenu" href="options_general.html">General</a></li>
+								<li><a class="submenu" href="options_page_bg.html">Page Background</a></li>
+                                <li><a class="submenu" href="options_colors.html">Colors</a></li>
+                                <li><a class="submenu" href="options_social.html">Social Media</a></li>
+                                <li><a class="submenu" href="options_fonts.html">Fonts</a></li>
+                                <li><a class="submenu" href="options_frontpage.html">Frontpage Settings</a></li>
+							</ul>	
+						</li>
+                        <li><a class="dropmenu" href="#">Styling your Site <i class="fa fa-caret-down pull-right"></i></a>
+							<ul>
+								<li><a class="submenu" href="blocks.html">Managing Blocks</a></li>
+                                <li><a class="submenu" href="typography.html">General Typography</a></li>
+                                <li><a class="submenu" href="tables.html">Tables</a></li>
+                                <li><a class="submenu" href="font_awesome.html">Using Font Awesome</a></li>
+                                <li><a class="submenu" href="bs_grid.html">Bootstrap Grid System</a></li>
+								<li><a class="submenu" href="bs_components.html">Bootstrap Components</a></li>
+                                <li><a class="submenu" href="bs_plugins.html">Bootstrap Plugins</a></li>
+                                <li><a class="submenu" href="content_boxes.html">Content Boxes</a></li>
+                                <li><a class="submenu" href="elements.html">Theme Elements</a></li>
+							</ul>	
+						</li>
+                        <li><a class="dropmenu" href="#">Adding content <i class="fa fa-caret-down pull-right"></i></a>
+							<ul>
+								<li><a class="submenu" href="adding_content.html">Text editor</a></li>
+                                <li><a class="submenu" href="adding_content_iconbox.html">Example 1 - Iconboxes</a></li>
+                                <li><a class="submenu" href="adding_content_imagebox.html">Example 2 - Imageboxes</a></li>
+                                <li><a class="submenu" href="adding_content_parallax.html">Example 3 - Parallax Section</a></li>
+                                <li><a class="submenu" href="adding_content_courses.html">Course Design</a></li>
+								<li><a class="submenu" href="adding_content_video.html">Responsive Videos</a></li>
+							</ul>	
+						</li>
+                        <li><a href="updates.html">Updates</span></a></li>
+                        <li><a href="credits.html">Credits</span></a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div id="content" class="span10">
+				<div class="row-fluid">
+                
+					<h1 class="sectionheading"> Managing blocks</h1>
+			<div class="divider"></div>
+            
+            <h4>Theme options</h4>
+            <p>Remember: This theme is designed to put both block columns on the side. If you prefer the standard Moodle course layout you can change this in the theme options to use a standard three column layout:</p>
+            
+            <div class="row-fluid">
+            <div class="span6"> 
+           	  <h5>Standard block Layout - setting 'No'</h5>
+              <p><img src="img/blocks-01.png" width="936" height="314" alt="block-layout-01" /></p>
+            </div>
+            <div class="span6"> 
+           	  <h5>Standard block Layout - setting 'Yes'</h5>
+              <p><img src="img/blocks-02.png" width="936" height="314" alt="block-layout-02" /></p>
+            </div>
+            </div>
+            
+            <hr />
+            
+            <h4>Example: Adding the Moodle calendar block to the footer</h4>
+            
+            <div class="row-fluid">
+            <div class="span6"> 
+            <p>If you don't already have a calendar block on your site, you first have to add one:
+            	<ul>
+            		<li>Click Turn editing on (top-right).</li>
+            		<li>When editing is on, the "Add block" block appears.</li>
+            		<li>Select the calendar block in the dropdown menu.</li>
+             	</ul>
+             </p>            
+             <p>With the calendar block on your site, click the edit icon in the block header to configure it.</p>
+             </div>
+             <div class="span6">
+             <p><img src="img/blocks-03.png" width="376" height="98" alt="editing-blocks" /></p>
+             </div>
+             </div>
+             
+             <div class="row-fluid">
+             <div class="span6"> 
+             <p>In the block settings you can configure where the block appears:
+           	   <ul>
+            		<li>Select "Any page" for "Display on page types" to make the calendar block appear throughout your Moodle site.</li>
+            		<li>Select "Footer (left)" for "Deafult region"</li>
+                    <li>Do not forget to verify the correct setting for the position "On this page":<br />
+                    Here you can override the column preference for the block, so make sure you have set up the correct region here, too.</li>
+           	   </ul>
+             </p>
+             </div>
+             <div class="span6">
+             <p><img src="img/blocks-04.png" width="450" height="415" alt="block-settings" /></p>
+             </div>
+             </div>
+          
+          	 <p>The calendar block is now placed at the left footer region and appears on every page of your Moodle site.</p>
+             <p><strong>Note: </strong>You can also add HTML blocks to add any content you like to your footer regions.</p>
+             <p style="text-align:center;"><img src="img/blocks-05.png" width="1000" height="381" alt="footer-regions" /></p>
+             
+            <div class="reference">
+            <p>See also:</p>
+            <ul>
+            	<li><a href="https://docs.moodle.org/27/en/Block_settings" target="_blank">https://docs.moodle.org/27/en/Block_settings</li>
+            </ul>
+            </div>
+                    
+					<div class="clearfix"></div>								
+				</div>	
+			</div>
+            
+		</div>
+	</div>
+	
+	<div class="clearfix"></div>
+
+	<script src="js/jquery-1.9.1.min.js"></script>	
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/custom.js"></script>
+	
+</body>
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Theme Lambda Documentation</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800,700,400italic,600italic,700italic,800italic,300italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+	<div class="navbar">
+		<div class="navbar-inner">
+			<div class="container-fluid">
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".top-nav.nav-collapse,.sidebar-nav.nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</a>
+                <a class="brand" href="index.html">Theme Lambda Documentation</a>				
+			</div>
+		</div>
+	</div>
+	
+	<div class="container-fluid-full">
+		<div class="row-fluid">
+
+			<div id="sidebar-left" class="span2">
+				<div class="nav-collapse sidebar-nav">
+					<ul class="nav nav-tabs nav-stacked main-menu">
+						<li><a href="index.html">Introduction</span></a></li>	
+						<li><a href="installing.html">Installing the Theme</span></a></li>
+                        <li><a class="dropmenu" href="#">First Steps<i class="fa fa-caret-down pull-right"></i></a>
+							<ul>
+								<li><a class="submenu" href="profileblock.html">Theme UI</a></li>
+								<li><a class="submenu" href="moodle_settings.html">Settings in Moodle</a></li>
+							</ul>	
+						</li>
+                        <li><a class="dropmenu" href="#">Theme Options <i class="fa fa-caret-down pull-right"></i></a>
+							<ul>
+								<li><a class="submenu" href="options_general.html">General</a></li>
+								<li><a class="submenu" href="options_page_bg.html">Page Background</a></li>
+                                <li><a class="submenu" href="options_colors.html">Colors</a></li>
+                                <li><a class="submenu" href="options_social.html">Social Media</a></li>
+                                <li><a class="submenu" href="options_fonts.html">Fonts</a></li>
+                                <li><a class="submenu" href="options_frontpage.html">Frontpage Settings</a></li>
+							</ul>	
+						</li>
+                        <li><a class="dropmenu" href="#">Styling your Site <i class="fa fa-caret-down pull-right"></i></a>
+							<ul>
+								<li><a class="submenu" href="blocks.html">Managing Blocks</a></li>
+                                <li><a class="submenu" href="typography.html">General Typography</a></li>
+                                <li><a class="submenu" href="tables.html">Tables</a></li>
+                                <li><a class="submenu" href="font_awesome.html">Using Font Awesome</a></li>
+                                <li><a class="submenu" href="bs_grid.html">Bootstrap Grid System</a></li>
+								<li><a class="submenu" href="bs_components.html">Bootstrap Components</a></li>
+                                <li><a class="submenu" href="bs_plugins.html">Bootstrap Plugins</a></li>
+                                <li><a class="submenu" href="content_boxes.html">Content Boxes</a></li>
+                                <li><a class="submenu" href="elements.html">Theme Elements</a></li>
+							</ul>	
+						</li>
+                        <li><a class="dropmenu" href="#">Adding content <i class="fa fa-caret-down pull-right"></i></a>
+							<ul>
+								<li><a class="submenu" href="adding_content.html">Text editor</a></li>
+                                <li><a class="submenu" href="adding_content_iconbox.html">Example 1 - Iconboxes</a></li>
+                                <li><a class="submenu" href="adding_content_imagebox.html">Example 2 - Imageboxes</a></li>
+                                <li><a class="submenu" href="adding_content_parallax.html">Example 3 - Parallax Section</a></li>
+                                <li><a class="submenu" href="adding_content_courses.html">Course Design</a></li>
+								<li><a class="submenu" href="adding_content_video.html">Responsive Videos</a></li>
+							</ul>	
+						</li>
+                        <li><a href="updates.html">Updates</span></a></li>
+                        <li><a href="credits.html">Credits</span></a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div id="content" class="span10">
+				<div class="row-fluid">
+                
+					<h1 class="sectionheading"> Adding content</h1>
+					<div class="divider"></div>
+                    
+                   
+                 <h4>A few thoughts on course design</h4>
+                   <p>There are many guidelines with Moodle course design tips out there in the web - but this documentation is not the right place to give a "best practice" summary. So I would rather like to focus on a few points and show how the theme's typography and css classes can help you.</p><br />
+
+                   		<h5>Use a consistant course design</h5>
+                        <p>Theme Lambda already uses a special layout for course sections and section titles. To place some informations to each section, you can for example use the <code>.alert</code> classes. With this class you can make use of the different color to attract the user’s attention by having a contrast with the white background.</p>
+                        <p align="center"><img src="img/adding-content-14.png" width="1083" height="69" alt="alert" /></p>
+                        <p><strong><a href="typography.html#highlight-alerts"><i class="fa fa-arrow-right"></i>
+ Read more</a></strong> about the <code>.alert</code> classes.</p>
+                        <p><strong>But remember:</strong> Don't use the course page for content, only place small infos, hints or summaries there.</p><br />
+ 
+                   		<h5>Use labels to guide your users</h5>
+                        <p>Theme Lambda's <code>.heading</code> classes can help you to place your tasks and resources in a clear structure to guide your users. The headings will help you to add some visual weight.</p>
+                        <p align="center"><img src="img/adding-content-15.jpg" width="1083" height="54" alt="labels" /></p>
+                        <p><strong><a href="typography.html#headlines"><i class="fa fa-arrow-right"></i>
+ Read more</a></strong> about the <code>.heading</code> classes.</p><br />
+
+                   		<h5>Topic 0 - the starting point of your course</h5>
+                        <p>There are many different options (and many different views!) how to design the top of a specific course:</p>
+                        <ul>
+                        <li>
+                        <p><strong><em>Course title with image and subheading:</em></strong><br />You can make use of the <code>.course-pano</code> class to it to create a visually appealing page header.</p>
+                        <p align="center"><img src="img/adding-content-12.jpg" width="1083" height="198" alt="course-pano" /></p>
+                        <p><strong><a href="elements.html#course-pano"><i class="fa fa-arrow-right"></i>
+ Read more</a></strong> about the <code>.course-pano</code> class.</p>
+                        </li>
+                        <li>
+                        <p><strong><em>Tabbed navigation:</em></strong><br />With this alternative you can provide an attractive starting point for your users which can also be used as a menu to link to the topics of your course.</p>
+                        <p align="center"><img src="img/adding-content-10.jpg" width="994" height="203" alt="tabbed-topic-0" /></p>
+                        <p><strong><a href="bs_plugins.html"><i class="fa fa-arrow-right"></i>
+ Read more</a></strong> about including tabs.</p>
+                        </li>
+                        <li>
+                        <p><strong><em>Default course title:</em></strong><br />In Theme Lambda, you can also use the standard course title - this way the title will be displayed in a consistent design to the other theme elements by default.</p>
+                        <p align="center"><img src="img/adding-content-16.jpg" width="710" height="232" alt="title-default" /></p>
+                        </li>
+                        </ul>
+                        
+                        <h5>Summing up</h5>
+                  <p>In the screenshot you can see how the suggested theme elements can work together to form a Moodle course. Activities, resources and labels are placed only as samples, so don't bother thinking about why students should explore Moodle in a "Creative Writing" course... :) </p>
+                        <p align="center"><img src="img/adding-content-11.jpg" width="1083" height="673" alt="example" /></p>
+                        <br />
+                   
+                    
+                    <hr />
+                    
+            <div class="reference">
+            <p>See also:</p>
+            <ul>
+            	<li><a href="https://docs.moodle.org/28/en/Courses" target="_blank">https://docs.moodle.org/28/en/Courses</a></li>
+            </ul>
+            </div> 
+
+					<div class="clearfix"></div>								
+				</div>	
+			</div>
+            
+		</div>
+	</div>
+	
+	<div class="clearfix"></div>
+
+	<script src="js/jquery-1.9.1.min.js"></script>	
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/custom.js"></script>
+	
+</body>
+</html>
