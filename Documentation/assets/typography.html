@@ -1,0 +1,369 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Theme Lambda Documentation</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800,700,400italic,600italic,700italic,800italic,300italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+	<div class="navbar">
+		<div class="navbar-inner">
+			<div class="container-fluid">
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".top-nav.nav-collapse,.sidebar-nav.nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</a>
+                <a class="brand" href="index.html">Theme Lambda Documentation</a>				
+			</div>
+		</div>
+	</div>
+	
+	<div class="container-fluid-full">
+		<div class="row-fluid">
+
+			<div id="sidebar-left" class="span2">
+				<div class="nav-collapse sidebar-nav">
+					<ul class="nav nav-tabs nav-stacked main-menu">
+						<li><a href="index.html">Introduction</span></a></li>	
+						<li><a href="installing.html">Installing the Theme</span></a></li>
+                        <li><a class="dropmenu" href="#">First Steps<i class="fa fa-caret-down pull-right"></i></a>
+							<ul>
+								<li><a class="submenu" href="profileblock.html">Theme UI</a></li>
+								<li><a class="submenu" href="moodle_settings.html">Settings in Moodle</a></li>
+							</ul>	
+						</li>
+                        <li><a class="dropmenu" href="#">Theme Options <i class="fa fa-caret-down pull-right"></i></a>
+							<ul>
+								<li><a class="submenu" href="options_general.html">General</a></li>
+								<li><a class="submenu" href="options_page_bg.html">Page Background</a></li>
+                                <li><a class="submenu" href="options_colors.html">Colors</a></li>
+                                <li><a class="submenu" href="options_social.html">Social Media</a></li>
+                                <li><a class="submenu" href="options_fonts.html">Fonts</a></li>
+                                <li><a class="submenu" href="options_frontpage.html">Frontpage Settings</a></li>
+							</ul>	
+						</li>
+                        <li><a class="dropmenu" href="#">Styling your Site <i class="fa fa-caret-down pull-right"></i></a>
+							<ul>
+								<li><a class="submenu" href="blocks.html">Managing Blocks</a></li>
+                                <li><a class="submenu" href="typography.html">General Typography</a></li>
+                                <li><a class="submenu" href="tables.html">Tables</a></li>
+                                <li><a class="submenu" href="font_awesome.html">Using Font Awesome</a></li>
+                                <li><a class="submenu" href="bs_grid.html">Bootstrap Grid System</a></li>
+								<li><a class="submenu" href="bs_components.html">Bootstrap Components</a></li>
+                                <li><a class="submenu" href="bs_plugins.html">Bootstrap Plugins</a></li>
+                                <li><a class="submenu" href="content_boxes.html">Content Boxes</a></li>
+                                <li><a class="submenu" href="elements.html">Theme Elements</a></li>
+							</ul>	
+						</li>
+                        <li><a class="dropmenu" href="#">Adding content <i class="fa fa-caret-down pull-right"></i></a>
+							<ul>
+								<li><a class="submenu" href="adding_content.html">Text editor</a></li>
+                                <li><a class="submenu" href="adding_content_iconbox.html">Example 1 - Iconboxes</a></li>
+                                <li><a class="submenu" href="adding_content_imagebox.html">Example 2 - Imageboxes</a></li>
+                                <li><a class="submenu" href="adding_content_parallax.html">Example 3 - Parallax Section</a></li>
+                                <li><a class="submenu" href="adding_content_courses.html">Course Design</a></li>
+								<li><a class="submenu" href="adding_content_video.html">Responsive Videos</a></li>
+							</ul>	
+						</li>
+                        <li><a href="updates.html">Updates</span></a></li>
+                        <li><a href="credits.html">Credits</span></a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div id="content" class="span10">
+				<div class="row-fluid">
+                
+                <h1 class="sectionheading"> Shortcodes: General Typography</h1>
+                <div class="divider"></div>
+                
+					<h4 style="margin-top:20px;">Headings</h4>
+  <p>All HTML headings, <code>&lt;h1&gt;</code> through <code>&lt;h6&gt;</code>, are available. Create lighter, secondary text in any heading with a generic <code>&lt;small&gt;</code> tag or the <code>.small</code> class.</p>
+  <div class="bs-example bs-example-type">
+    <table class="table">
+      <tbody>
+        <tr>
+          <td><h1>h1 heading <small>Secondary text</small></h1></td>
+        </tr>
+        <tr>
+          <td><h2>h2 heading <small>Secondary text</small></h2></td>
+        </tr>
+        <tr>
+          <td><h3>h3 heading <small>Secondary text</small></h3></td>
+        </tr>
+        <tr>
+          <td><h4>h4 heading <small>Secondary text</small></h4></td>
+        </tr>
+        <tr>
+          <td><h5>h5 heading <small>Secondary text</small></h5></td>
+        </tr>
+        <tr>
+          <td><h6>h6 heading <small>Secondary text</small></h6></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+<pre><code class="html"><span class="nt">&lt;h1&gt;</span>h1. Bootstrap heading <span class="nt">&lt;small&gt;</span>Secondary text<span class="nt">&lt;/small&gt;&lt;/h1&gt;</span>
+<span class="nt">&lt;h2&gt;</span>h2. Bootstrap heading <span class="nt">&lt;small&gt;</span>Secondary text<span class="nt">&lt;/small&gt;&lt;/h2&gt;</span>
+<span class="nt">&lt;h3&gt;</span>h3. Bootstrap heading <span class="nt">&lt;small&gt;</span>Secondary text<span class="nt">&lt;/small&gt;&lt;/h3&gt;</span>
+<span class="nt">&lt;h4&gt;</span>h4. Bootstrap heading <span class="nt">&lt;small&gt;</span>Secondary text<span class="nt">&lt;/small&gt;&lt;/h4&gt;</span>
+<span class="nt">&lt;h5&gt;</span>h5. Bootstrap heading <span class="nt">&lt;small&gt;</span>Secondary text<span class="nt">&lt;/small&gt;&lt;/h5&gt;</span>
+<span class="nt">&lt;h6&gt;</span>h6. Bootstrap heading <span class="nt">&lt;small&gt;</span>Secondary text<span class="nt">&lt;/small&gt;&lt;/h6&gt;</span></code></pre>
+  
+  <h4 style="margin-top:20px;">Body copy &amp; lead body copy</h4>
+  <p>Make a paragraph stand out by adding <code>.lead</code>:<br></p>
+  <div class="bs-example">
+    <p class="lead">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.</p><p>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p></div>
+<pre><code class="html"><span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"lead"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/p&gt;</span><br><span class="nt">&lt;p&gt;</span>...<span class="nt">&lt;/p&gt;</span></code></pre>
+
+     <h4 style="margin-top:20px;">Blockquotes</h4>
+  <p>For quoting blocks of content from another source within your document.</p>
+  <div class="bs-example">
+    <blockquote>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+      <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+    </blockquote>
+  </div>
+<pre><code class="html"><span class="nt">&lt;blockquote&gt;</span>
+  <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.<span class="nt">&lt;/p&gt;</span>
+  <span class="nt">&lt;footer&gt;</span>Someone famous in <span class="nt">&lt;cite</span> <span class="na">title=</span><span class="s">"Source Title"</span><span class="nt">&gt;</span>Source Title<span class="nt">&lt;/cite&gt;&lt;/footer&gt;</span>
+<span class="nt">&lt;/blockquote&gt;</span></code></pre>
+
+   <h4 style="margin-top:20px;">List Styles</h4>
+  <p>A list of items in which the order does <em>not</em> explicitly matter.</p>
+  <div class="bs-example">
+    <ul>
+      <li>Lorem ipsum dolor sit amet</li>
+      <li>Consectetur adipiscing elit
+        <ul>
+          <li>Phasellus iaculis neque</li>
+          <li>Purus sodales ultricies</li>
+        </ul>
+      </li>
+      <li>Faucibus porta lacus fringilla vel</li>
+    </ul>
+  </div>
+<pre><code class="html"><span class="nt">&lt;ul&gt;</span>
+  <span class="nt">&lt;li&gt;</span>...<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span></code></pre>
+
+
+  <p>A list of items in which the order <em>does</em> explicitly matter.</p>
+  <div class="bs-example">
+    <ol>
+      <li>Lorem ipsum dolor sit amet</li>
+      <li>Consectetur adipiscing elit</li>
+      <li>Phasellus iaculis neque</li>
+    </ol>
+  </div>
+<pre><code class="html"><span class="nt">&lt;ol&gt;</span>
+  <span class="nt">&lt;li&gt;</span>...<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ol&gt;</span></code></pre>
+
+
+  <p>Add a <code>list-style</code> for Theme Lambda's custom lists:</p>
+  <div class="bs-example">
+   <div class="row-fluid">
+   
+   <div class="span4">
+    <ul class="list-style-1">
+      <li>list-style-1</li>
+      <li>list-style-1</li>
+      <li>list-style-1</li>
+    </ul>
+   </div>
+
+   <div class="span4">
+    <ul class="list-style-2">
+      <li>list-style-2</li>
+      <li>list-style-2</li>
+      <li>list-style-2</li>
+    </ul>
+   </div>
+
+   <div class="span4">
+    <ul class="list-style-3">
+      <li>list-style-3</li>
+      <li>list-style-3</li>
+      <li>list-style-3</li>
+    </ul>
+   </div>
+  </div>
+
+  </div>
+<pre><code class="html"><span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"list-style-1"</span><span class="nt">&gt;</span> | <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"list-style-2"</span><span class="nt">&gt;</span> | <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"list-style-3"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;li&gt;</span>...<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span></code>
+</pre>
+
+<p>Add <code>colored</code> to the class of the custom lists to style them in the theme's main color:</p>
+  <div class="bs-example">
+   <div class="row-fluid">
+   
+   <div class="span4">
+    <ul class="list-style-1 colored">
+      <li>list-style-1</li>
+      <li>list-style-1</li>
+      <li>list-style-1</li>
+    </ul>
+   </div>
+
+   <div class="span4">
+    <ul class="list-style-2 colored">
+      <li>list-style-2</li>
+      <li>list-style-2</li>
+      <li>list-style-2</li>
+    </ul>
+   </div>
+
+   <div class="span4">
+    <ul class="list-style-3 colored">
+      <li>list-style-3</li>
+      <li>list-style-3</li>
+      <li>list-style-3</li>
+    </ul>
+   </div>
+  </div>
+
+  </div>
+<pre><code class="html"><span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"list-style-1 colored"</span><span class="nt">&gt;</span> | <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"list-style-2 colored"</span><span class="nt">&gt;</span> | <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"list-style-3 colored"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;li&gt;</span>...<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span></code>
+</pre>
+
+<h4 style="margin-top:20px;" id="highlight-alerts">Emphasis, Highlight and Alert</h4>
+<p>Wrap any text in <code>.label</code>, <code>.alert</code> and one of the four contextual classes (e.g., <code>.text-success</code>) for context based messages.</p>
+  <div class="bs-example">
+
+<table class="table">
+<tbody>
+<tr>
+<td>
+<p class="text-muted">muted - Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>
+<p class="text-success">success - Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
+<p class="text-info">info - Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+<p class="text-warning">warning - Etiam porta sem malesuada magna mollis euismod.</p>
+<p class="text-danger">danger - Donec ullamcorper nulla non metus auctor fringilla.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>
+<span class="label label-default">Default</span>
+
+<span class="label label-success">Success</span>
+<span class="label label-info">Info</span>
+<span class="label label-warning">Warning</span>
+<span class="label label-danger">Danger</span>
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<div class="alert alert-success" role="alert">
+<strong>Well done!</strong>
+You successfully read this important alert message.
+</div>
+<div class="alert alert-info" role="alert">
+<strong>Heads up!</strong>
+This alert needs your attention, but it's not super important.
+</div>
+<div class="alert alert-warning" role="alert">
+<strong>Warning!</strong>
+Better check yourself, you're not looking too good.
+</div>
+<div class="alert alert-danger" role="alert">
+<strong>Oh snap!</strong>
+Change a few things up and try submitting again.
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+  </div>
+<pre><code class="html"><span class="nt">&lt;p</span> class=<span class="s">"text-muted"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> class=<span class="s">"text-success"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> class=<span class="s">"text-info"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> class=<span class="s">"text-warning"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> class=<span class="s">"text-danger"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/p&gt;</span>
+
+<span class="nt">&lt;span</span> class=<span class="s">"label label-default"</span><span class="nt">&gt;</span>Default<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> class=<span class="s">"label label-success"</span><span class="nt">&gt;</span>Success<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> class=<span class="s">"label label-info"</span><span class="nt">&gt;</span>Info<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> class=<span class="s">"label label-warning"</span><span class="nt">&gt;</span>Warning<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> class=<span class="s">"label label-danger"</span><span class="nt">&gt;</span>Danger<span class="nt">&lt;/span&gt;</span>
+
+<span class="nt">&lt;div </span><span class="na">class=</span><span class="s">"alert alert-success"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div </span><span class="na">class=</span><span class="s">"alert alert-info"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div </span><span class="na">class=</span><span class="s">"alert alert-warning"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div </span><span class="na">class=</span><span class="s">"alert alert-danger"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/div&gt;</span></code></pre>
+
+<h4 style="margin-top:20px;" id="headlines">Headlines</h4>
+<p>You can add a <code>.headline</code> to a label. Use this style to define a hierarchy in your course or to mark specific sections.</p>
+<p><strong>Please note:</strong> The colors for the headlines are used from the 'main color' and the 'menu color' which can be defined in the theme options.</p>
+  <div class="bs-example">
+
+<table class="table">
+<tbody>
+<tr>
+<td>
+<p class="headline headline-v1">Headline-v1 Sample Heading</p>
+<p class="headline headline-v2">Headline-v2 Sample Heading</p>
+<p class="headline headline-v3">Headline-v3 Sample Heading</p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="headline headline-v1"><i class="fa fa-folder-open"></i> Headline-v1 Heading and Icon</p>
+<p class="headline headline-v2"><i class="fa fa-folder-open"></i> Headline-v2 Heading and Icon</p>
+<p class="headline headline-v3"><i class="fa fa-folder-open"></i> Headline-v3 Heading and Icon</p>
+</td>
+</tr>
+</tbody>
+</table>
+  </div>
+<pre><code class="html"><span class="nt">&lt;p</span> class=<span class="s">"headline headline-v1"</span><span class="nt">&gt;</span>Headline-v1 Sample Heading<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> class=<span class="s">"headline headline-v2"</span><span class="nt">&gt;</span>Headline-v2 Sample Heading<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> class=<span class="s">"headline headline-v3"</span><span class="nt">&gt;</span>Headline-v3 Sample Heading<span class="nt">&lt;/p&gt;</span><span class="nt"></span>
+
+<span class="nt">&lt;p</span> class=<span class="s">"headline headline-v1"</span><span class="nt">&gt;</span><span class="nt">&lt;i</span> class=<span class="s">"fa fa-folder-open"</span><span class="nt">&gt;&lt;/i&gt;</span> Headline-v1 Heading and Icon<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> class=<span class="s">"headline headline-v2"</span><span class="nt">&gt;</span><span class="nt">&lt;i</span> class=<span class="s">"fa fa-folder-open"</span><span class="nt">&gt;&lt;/i&gt;</span> Headline-v2 Heading and Icon<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p</span> class=<span class="s">"headline headline-v3"</span><span class="nt">&gt;</span><span class="nt">&lt;i</span> class=<span class="s">"fa fa-folder-open"</span><span class="nt">&gt;&lt;/i&gt;</span> Headline-v3 Heading and Icon<span class="nt">&lt;/p&gt;</span><span class="nt"></span></code></pre>
+
+<h4 style="margin-top:20px;">Images</h4>
+  <p>Add classes to an <code>&lt;img&gt;</code> element to easily style images in any project.</p>
+  <div class="bs-example">
+   <img class="img-rounded" src="http://placehold.it/140x140" alt="" style="margin-right:10px;">
+  <img class="img-circle" src="http://placehold.it/140x140" alt="" style="margin-right:10px;">
+  <img class="img-polaroid" src="http://placehold.it/140x140" alt="">
+  </div>
+<pre><code class="html"><span class="nt">&lt;img </span><span class="na">src="..." class=</span><span class="s">"img-rounded"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;img </span><span class="na">src="..." class=</span><span class="s">"img-circle"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;img </span><span class="na">src="..." class=</span><span class="s">"img-polaroid"</span><span class="nt">&gt;</span></code></pre>
+                    
+					<div class="clearfix"></div>								
+				</div>	
+			</div>
+            
+		</div>
+	</div>
+	
+	<div class="clearfix"></div>
+
+	<script src="js/jquery-1.9.1.min.js"></script>	
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/custom.js"></script>
+	
+</body>
+</html>

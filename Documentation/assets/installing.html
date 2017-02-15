@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Theme Lambda Documentation</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800,700,400italic,600italic,700italic,800italic,300italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+	<div class="navbar">
+		<div class="navbar-inner">
+			<div class="container-fluid">
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".top-nav.nav-collapse,.sidebar-nav.nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</a>
+                <a class="brand" href="index.html">Theme Lambda Documentation</a>				
+			</div>
+		</div>
+	</div>
+	
+	<div class="container-fluid-full">
+		<div class="row-fluid">
+
+			<div id="sidebar-left" class="span2">
+				<div class="nav-collapse sidebar-nav">
+					<ul class="nav nav-tabs nav-stacked main-menu">
+						<li><a href="index.html">Introduction</span></a></li>	
+						<li><a href="installing.html">Installing the Theme</span></a></li>
+                        <li><a class="dropmenu" href="#">First Steps<i class="fa fa-caret-down pull-right"></i></a>
+							<ul>
+								<li><a class="submenu" href="profileblock.html">Theme UI</a></li>
+								<li><a class="submenu" href="moodle_settings.html">Settings in Moodle</a></li>
+							</ul>	
+						</li>
+                        <li><a class="dropmenu" href="#">Theme Options <i class="fa fa-caret-down pull-right"></i></a>
+							<ul>
+								<li><a class="submenu" href="options_general.html">General</a></li>
+								<li><a class="submenu" href="options_page_bg.html">Page Background</a></li>
+                                <li><a class="submenu" href="options_colors.html">Colors</a></li>
+                                <li><a class="submenu" href="options_social.html">Social Media</a></li>
+                                <li><a class="submenu" href="options_fonts.html">Fonts</a></li>
+                                <li><a class="submenu" href="options_frontpage.html">Frontpage Settings</a></li>
+							</ul>	
+						</li>
+                        <li><a class="dropmenu" href="#">Styling your Site <i class="fa fa-caret-down pull-right"></i></a>
+							<ul>
+								<li><a class="submenu" href="blocks.html">Managing Blocks</a></li>
+                                <li><a class="submenu" href="typography.html">General Typography</a></li>
+                                <li><a class="submenu" href="tables.html">Tables</a></li>
+                                <li><a class="submenu" href="font_awesome.html">Using Font Awesome</a></li>
+                                <li><a class="submenu" href="bs_grid.html">Bootstrap Grid System</a></li>
+								<li><a class="submenu" href="bs_components.html">Bootstrap Components</a></li>
+                                <li><a class="submenu" href="bs_plugins.html">Bootstrap Plugins</a></li>
+                                <li><a class="submenu" href="content_boxes.html">Content Boxes</a></li>
+                                <li><a class="submenu" href="elements.html">Theme Elements</a></li>
+							</ul>	
+						</li>
+                        <li><a class="dropmenu" href="#">Adding content <i class="fa fa-caret-down pull-right"></i></a>
+							<ul>
+								<li><a class="submenu" href="adding_content.html">Text editor</a></li>
+                                <li><a class="submenu" href="adding_content_iconbox.html">Example 1 - Iconboxes</a></li>
+                                <li><a class="submenu" href="adding_content_imagebox.html">Example 2 - Imageboxes</a></li>
+                                <li><a class="submenu" href="adding_content_parallax.html">Example 3 - Parallax Section</a></li>
+                                <li><a class="submenu" href="adding_content_courses.html">Course Design</a></li>
+								<li><a class="submenu" href="adding_content_video.html">Responsive Videos</a></li>
+							</ul>	
+						</li>
+                        <li><a href="updates.html">Updates</span></a></li>
+                        <li><a href="credits.html">Credits</span></a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div id="content" class="span10">
+				<div class="row-fluid">
+                
+					<h1 class="sectionheading"> Installing the Theme</h1>
+			<div class="divider"></div>
+			
+            <div class="row-fluid">
+            <div class="span6">            
+            <h4>Upload and install via ZIP file</h4>       
+			<ol>
+			  <li>Login to your Moodle site as an admin. </li>
+			  <li>Go to <em>Administration &gt; Site administration &gt; Plugins &gt; Install plugins</em>. </li>
+              <li>Select <em>Theme</em> as the appropriate plugin type.<br />
+              <strong>New in 2.9:</strong> The plugin type will be automatically detected - you can skip this step!</li>
+              <li>In your downloaded package from ThemeForest, open the folder <em>Theme</em>.</li>
+              <li>Choose the appropriate upload file for your Moodle version: The file <em>theme-lambda-upload-moodle_25-28.zip</em> can be installed on all Moodle version from 2.5 to 2.8. The file <em>theme-lambda-upload-moodle_29.zip</em> is for an installation on Moodle 2.9.</li> 
+			  <li>Upload the appropriate ZIP file, tick the acknowledgement checkbox, then click the button 'Install plugin from the ZIP file'. </li>
+			  <li>Check that you obtain a 'Validation passed!' message, then click the button 'Install plugin'. </li>
+		  	</ol>
+          	</div>
+            <div class="span6"><img src="img/install-01.png" width="492" height="391" alt="install-01" /></div>
+          	</div>
+			<p>&nbsp;</p>
+            <div class="alert alert-success">During the next steps the Moodle database will be upgraded. Though you can already set up the theme options at this stage, <strong>it is recommended to leave the theme options at the default settings at first and just klick <em>Save Changes</em> to continue</strong>.</div>
+            <p>&nbsp;</p>
+            
+            <h4>Changing the theme</h4>
+            <div class="alert alert-info">In Moodle you can select different themes depending upon the device that will be viewing Moodle. For example, you might have one theme for computers with monitors and another for mobile phones and another for tablets. Since <strong>Theme Lambda</strong> is a responsive theme, you only have to select it as your <strong>default theme</strong>.</div>
+            <ol>
+              <li> Log in as admin and go to <em>Administration &gt; Site administration &gt; Appearance &gt; Themes &gt; Theme Selector</em></li>
+              <li> Click on &quot;Clear theme caches&quot; button </li>
+              <li> Click on the &quot;Select theme&quot; button on the right of the current theme being used for the device </li>
+              <li> Scroll down to find the theme you wish to use </li>
+              <li> Click the &quot;Use theme&quot; button next to that theme </li>
+              <li> Moodle will tell you it has been saved as the default theme </li>
+              <li> Check your Moodle site by going to the Moodle site's home page </li>
+              <li> You may have to refresh your browser to see the new theme </li>
+            </ol>
+            <p>&nbsp;</p>
+            
+            <div class="reference">
+            <p>See also:</p>
+            <ul>
+            	<li><a href="https://docs.moodle.org/27/en/Installing_a_new_theme" target="_blank">https://docs.moodle.org/27/en/Installing_a_new_theme</li>
+                <li><a href="https://docs.moodle.org/27/en/Installing_plugins" target="_blank">https://docs.moodle.org/27/en/Installing_plugins</li>
+            </ul>
+            </div>
+                    
+					<div class="clearfix"></div>								
+				</div>	
+			</div>
+            
+		</div>
+	</div>
+	
+	<div class="clearfix"></div>
+
+	<script src="js/jquery-1.9.1.min.js"></script>	
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/custom.js"></script>
+	
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Theme Lambda Documentation</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800,700,400italic,600italic,700italic,800italic,300italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+	<div class="navbar">
+		<div class="navbar-inner">
+			<div class="container-fluid">
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".top-nav.nav-collapse,.sidebar-nav.nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</a>
+                <a class="brand" href="index.html">Theme Lambda Documentation</a>				
+			</div>
+		</div>
+	</div>
+	
+	<div class="container-fluid-full">
+		<div class="row-fluid">
+
+			<div id="sidebar-left" class="span2">
+				<div class="nav-collapse sidebar-nav">
+					<ul class="nav nav-tabs nav-stacked main-menu">
+						<li><a href="index.html">Introduction</span></a></li>	
+						<li><a href="installing.html">Installing the Theme</span></a></li>
+                        <li><a class="dropmenu" href="#">First Steps<i class="fa fa-caret-down pull-right"></i></a>
+							<ul>
+								<li><a class="submenu" href="profileblock.html">Theme UI</a></li>
+								<li><a class="submenu" href="moodle_settings.html">Settings in Moodle</a></li>
+							</ul>	
+						</li>
+                        <li><a class="dropmenu" href="#">Theme Options <i class="fa fa-caret-down pull-right"></i></a>
+							<ul>
+								<li><a class="submenu" href="options_general.html">General</a></li>
+								<li><a class="submenu" href="options_page_bg.html">Page Background</a></li>
+                                <li><a class="submenu" href="options_colors.html">Colors</a></li>
+                                <li><a class="submenu" href="options_social.html">Social Media</a></li>
+                                <li><a class="submenu" href="options_fonts.html">Fonts</a></li>
+                                <li><a class="submenu" href="options_frontpage.html">Frontpage Settings</a></li>
+							</ul>	
+						</li>
+                        <li><a class="dropmenu" href="#">Styling your Site <i class="fa fa-caret-down pull-right"></i></a>
+							<ul>
+								<li><a class="submenu" href="blocks.html">Managing Blocks</a></li>
+                                <li><a class="submenu" href="typography.html">General Typography</a></li>
+                                <li><a class="submenu" href="tables.html">Tables</a></li>
+                                <li><a class="submenu" href="font_awesome.html">Using Font Awesome</a></li>
+                                <li><a class="submenu" href="bs_grid.html">Bootstrap Grid System</a></li>
+								<li><a class="submenu" href="bs_components.html">Bootstrap Components</a></li>
+                                <li><a class="submenu" href="bs_plugins.html">Bootstrap Plugins</a></li>
+                                <li><a class="submenu" href="content_boxes.html">Content Boxes</a></li>
+                                <li><a class="submenu" href="elements.html">Theme Elements</a></li>
+							</ul>	
+						</li>
+                        <li><a class="dropmenu" href="#">Adding content <i class="fa fa-caret-down pull-right"></i></a>
+							<ul>
+								<li><a class="submenu" href="adding_content.html">Text editor</a></li>
+                                <li><a class="submenu" href="adding_content_iconbox.html">Example 1 - Iconboxes</a></li>
+                                <li><a class="submenu" href="adding_content_imagebox.html">Example 2 - Imageboxes</a></li>
+                                <li><a class="submenu" href="adding_content_parallax.html">Example 3 - Parallax Section</a></li>
+                                <li><a class="submenu" href="adding_content_courses.html">Course Design</a></li>
+								<li><a class="submenu" href="adding_content_video.html">Responsive Videos</a></li>
+							</ul>	
+						</li>
+                        <li><a href="updates.html">Updates</span></a></li>
+                        <li><a href="credits.html">Credits</span></a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div id="content" class="span10">
+				<div class="row-fluid">
+                
+					<h1 class="sectionheading"> Updates</h1>
+			<div class="divider"></div>
+			
+            <h4>Changelog</h4>
+			<a href="http://redpithemes.com/Changelog/changelog.txt" target="_blank">View complete version history</a>
+            
+            <hr />
+            
+            <h4>Installing an update</h4>
+<p>For an update of Theme Lambda, you have to copy the new download to the server file system manually.</p>
+<p>To do so, please perform the following steps:</p>
+<ol>
+<li><p>Download the zip file of the update.</p></li>
+<li><p>Extract the theme folder <em>theme-lambda-upload</em> to its own named folder.</p>
+<p><img src="img/update-01.png" width="308" height="168" alt="update-01" /></p>
+</li>
+<li><p>Inside the extracted folder, you will find a folder called <em>lambda</em>.</p>
+<p><img src="img/update-02.png" width="246" height="54" alt="update-02" /></p>
+</li>
+<li><p>Using your FTP program, upload the extracted folder <em>lambda</em> to the /theme folder of your Moodle installation (overwrite existing files).</p>
+<p><img src="img/update-03.png" width="863" height="140" alt="update-03" /></p>
+</li>
+<li>Now login to your Moodle site. You will then be automatically redirected to <em>Administration &gt; Site administration &gt; Notifications</em>. You will see a notification for the theme to be updated. Click the "Upgrade Moodle Database now" button.</li>
+</ol>
+<p></p>
+<div class="alert alert-info"><p> All settings that you have made are stored in the Moodle database, so none of your settings will get lost.<br />  
+  (Please note: If you have edited the php files or the css files of the theme, then you should make a backup of these files).
+</p>
+</div>
+            <p>&nbsp;</p>
+            
+            <div class="reference">
+            <p>See also:</p>
+            <ul>
+            	<li><a href="https://docs.moodle.org/27/en/Installing_plugins#Installing_manually_at_the_server">https://docs.moodle.org/27/en/Installing_plugins#Installing_manually_at_the_server</li>
+            </ul>
+            </div>
+                    
+					<div class="clearfix"></div>								
+				</div>	
+			</div>
+            
+		</div>
+	</div>
+	
+	<div class="clearfix"></div>
+
+	<script src="js/jquery-1.9.1.min.js"></script>	
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/custom.js"></script>
+	
+</body>
+</html>

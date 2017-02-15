@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Theme Lambda Documentation</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800,700,400italic,600italic,700italic,800italic,300italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+	<div class="navbar">
+		<div class="navbar-inner">
+			<div class="container-fluid">
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".top-nav.nav-collapse,.sidebar-nav.nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</a>
+                <a class="brand" href="index.html">Theme Lambda Documentation</a>				
+			</div>
+		</div>
+	</div>
+	
+	<div class="container-fluid-full">
+		<div class="row-fluid">
+
+			<div id="sidebar-left" class="span2">
+				<div class="nav-collapse sidebar-nav">
+					<ul class="nav nav-tabs nav-stacked main-menu">
+						<li><a href="index.html">Introduction</span></a></li>	
+						<li><a href="installing.html">Installing the Theme</span></a></li>
+                        <li><a class="dropmenu" href="#">First Steps<i class="fa fa-caret-down pull-right"></i></a>
+							<ul>
+								<li><a class="submenu" href="profileblock.html">Theme UI</a></li>
+								<li><a class="submenu" href="moodle_settings.html">Settings in Moodle</a></li>
+							</ul>	
+						</li>
+                        <li><a class="dropmenu" href="#">Theme Options <i class="fa fa-caret-down pull-right"></i></a>
+							<ul>
+								<li><a class="submenu" href="options_general.html">General</a></li>
+								<li><a class="submenu" href="options_page_bg.html">Page Background</a></li>
+                                <li><a class="submenu" href="options_colors.html">Colors</a></li>
+                                <li><a class="submenu" href="options_social.html">Social Media</a></li>
+                                <li><a class="submenu" href="options_fonts.html">Fonts</a></li>
+                                <li><a class="submenu" href="options_frontpage.html">Frontpage Settings</a></li>
+							</ul>	
+						</li>
+                        <li><a class="dropmenu" href="#">Styling your Site <i class="fa fa-caret-down pull-right"></i></a>
+							<ul>
+								<li><a class="submenu" href="blocks.html">Managing Blocks</a></li>
+                                <li><a class="submenu" href="typography.html">General Typography</a></li>
+                                <li><a class="submenu" href="tables.html">Tables</a></li>
+                                <li><a class="submenu" href="font_awesome.html">Using Font Awesome</a></li>
+                                <li><a class="submenu" href="bs_grid.html">Bootstrap Grid System</a></li>
+								<li><a class="submenu" href="bs_components.html">Bootstrap Components</a></li>
+                                <li><a class="submenu" href="bs_plugins.html">Bootstrap Plugins</a></li>
+                                <li><a class="submenu" href="content_boxes.html">Content Boxes</a></li>
+                                <li><a class="submenu" href="elements.html">Theme Elements</a></li>
+							</ul>	
+						</li>
+                        <li><a class="dropmenu" href="#">Adding content <i class="fa fa-caret-down pull-right"></i></a>
+							<ul>
+								<li><a class="submenu" href="adding_content.html">Text editor</a></li>
+                                <li><a class="submenu" href="adding_content_iconbox.html">Example 1 - Iconboxes</a></li>
+                                <li><a class="submenu" href="adding_content_imagebox.html">Example 2 - Imageboxes</a></li>
+                                <li><a class="submenu" href="adding_content_parallax.html">Example 3 - Parallax Section</a></li>
+                                <li><a class="submenu" href="adding_content_courses.html">Course Design</a></li>
+								<li><a class="submenu" href="adding_content_video.html">Responsive Videos</a></li>
+							</ul>	
+						</li>
+                        <li><a href="updates.html">Updates</span></a></li>
+                        <li><a href="credits.html">Credits</span></a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div id="content" class="span10">
+				<div class="row-fluid">
+                
+					<h1 class="sectionheading"> First Steps: Theme UI</h1>
+					<div class="divider"></div>
+		  			<h3 class="subheading">Theme Lambda's Profileblock</h3>
+            
+            		<h4>How to log in and log out</h4>
+          			<p>Theme Lambda uses a profileblock in the header for a quick login area. After a successful login, the profileblock displays the user's profile image and name. This serves also as a dropdown menu which includes quicklinks to the user's courses, files, messages and more.</p>
+            		<p>In the dropdown menu you will also find the <strong>Log out</strong> link.</p>
+            		<div class="row-fluid">
+            			<div class="span6"><img src="img/profileblock-01.png" width="419" height="310" alt="profileblock-01" /></div>
+            			<div class="span6"><img src="img/profileblock-02.png" width="419" height="310" alt="profileblock-02" /></div>
+            		</div>
+                    
+                    <hr />
+                    
+       		    <h3 class="subheading">Turn editing on/off</h3>
+                    <p>The theme uses a special button to turn editing on or off. For teachers and course creators, the button is now more easy to recognize.</p>
+                    <p><img src="img/profileblock-03.png" width="72" height="50" alt="editing_01" style="margin:10px;"/><em>Turn editing on</em> <img src="img/profileblock-04.png" width="72" height="50" alt="editing_02" style="margin:10px;"/><em>Turn editing off</em>
+                    
+                    <hr />
+                    
+                    <h3 class="subheading">Footer block area</h3>
+                  <p>The theme's footer consists of three block regions [<em>Footer (Left)</em>, <em>Footer (Middle)</em> and <em>Footer (Right)</em>].This means that any Moodle block can be placed there. In the screenshot below the Calendar block is placed at position <em>Footer (Left)</em> and HTML blocks are added to <em>Footer (Middle)</em> and <em>Footer (Right)</em>.</p>
+                    <p style="text-align:center;"><img src="img/profileblock-05.png" width="1318" height="290" alt="footer_region" style="margin-top:10px;"/></p>
+                    
+                    <hr />
+                    
+                    <h3 class="subheading">Hiding blocks from users on the frontpage</h3>
+                  <p>The theme offers you the possibility to move your blocks to a "hidden" position at the frontpage. To do so, turn on the editing by clicking the link in "Administration" > "Course administration" and edit the block settings by clicking on the cogwheel at the top of the block. At "Where this block appears" > "On this page" click in the dropdown for "Region" and select the setting "hidden from users". Then the block will be placed in a hidden area only visible for admins:</p>
+                    <p style="text-align:center;"><img src="img/profileblock-06.png" width="650" height="204" alt="footer_region" style="margin-top:10px;"/></p>
+                    
+                    <div class="clearfix"></div> 								
+			  </div>	
+			</div>
+            
+		</div>
+	</div>
+	
+	<div class="clearfix"></div>
+
+	<script src="js/jquery-1.9.1.min.js"></script>	
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/custom.js"></script>
+	
+</body>
+</html>
